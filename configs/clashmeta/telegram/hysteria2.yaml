@@ -85,6 +85,8 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+  alpn:
+  - h3
 - name: 'Hysteria2 #2'
   type: hysteria2
   server: 45.81.19.251
@@ -94,8 +96,6 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-  alpn:
-  - h3
 proxy-groups:
 - name: Proxy Select
   type: select
