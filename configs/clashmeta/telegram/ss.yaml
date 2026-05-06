@@ -76,7 +76,7 @@ sniffer:
       - 2087
       - 2096
 proxies:
-- name: 'ARISTA🔥 #1'
+- name: 'ARISTA🔥 #2'
   type: ss
   server: 108.181.0.177
   port: 8388
@@ -84,7 +84,7 @@ proxies:
   password: G5p6ww4o67HB
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #2'
+- name: 'ARISTA🔥 #3'
   type: ss
   server: 130.51.22.40
   port: 2096
@@ -92,7 +92,7 @@ proxies:
   password: EZpdo76F11FSURWDKmxQwA
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #3'
+- name: 'ARISTA🔥 #4'
   type: ss
   server: 193.29.139.217
   port: 8080
@@ -100,7 +100,7 @@ proxies:
   password: cvII85TrW6n0OGyfpHVS1u
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #4'
+- name: 'ARISTA🔥 #5'
   type: ss
   server: 193.29.139.206
   port: 8080
@@ -108,7 +108,7 @@ proxies:
   password: 4a2rfixophdjffa8KVA4Aa
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #5'
+- name: 'ARISTA🔥 #6'
   type: ss
   server: 83.166.250.6
   port: 50529
@@ -116,7 +116,7 @@ proxies:
   password: zEozh4psdpqyy1k9U5tykMFF5
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #6'
+- name: 'ARISTA🔥 #7'
   type: ss
   server: 108.181.58.239
   port: 8388
@@ -124,20 +124,12 @@ proxies:
   password: CJmTCCx7Ltud
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #7'
+- name: 'ARISTA🔥 #8'
   type: ss
   server: 71.19.148.74
   port: 443
   cipher: chacha20-ietf-poly1305
   password: XUMTygEM1jVYIvysXKqA5T
-  udp: true
-  tcp-fast-open: true
-- name: 'ARISTA🔥 #8'
-  type: ss
-  server: 46.101.196.138
-  port: 23243
-  cipher: chacha20-ietf-poly1305
-  password: Q7cjiVD0oKNE2o9sUnZKQg
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #9'
@@ -156,12 +148,27 @@ proxies:
   password: Tqd9GppXpXB8rpc8
   udp: true
   tcp-fast-open: true
+- name: 'ARISTA🔥 #11'
+  type: ss
+  server: 193.29.139.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+  tcp-fast-open: true
+- name: 'ARISTA🔥 #12'
+  type: ss
+  server: 46.101.196.138
+  port: 23243
+  cipher: chacha20-ietf-poly1305
+  password: Q7cjiVD0oKNE2o9sUnZKQg
+  udp: true
+  tcp-fast-open: true
 proxy-groups:
 - name: Proxy Select
   type: select
   proxies:
   - Auto Select
-  - 'ARISTA🔥 #1'
   - 'ARISTA🔥 #2'
   - 'ARISTA🔥 #3'
   - 'ARISTA🔥 #4'
@@ -171,11 +178,12 @@ proxy-groups:
   - 'ARISTA🔥 #8'
   - 'ARISTA🔥 #9'
   - 'ARISTA🔥 #10'
+  - 'ARISTA🔥 #11'
+  - 'ARISTA🔥 #12'
   - DIRECT
 - name: Auto Select
   type: url-test
   proxies:
-  - 'ARISTA🔥 #1'
   - 'ARISTA🔥 #2'
   - 'ARISTA🔥 #3'
   - 'ARISTA🔥 #4'
@@ -185,6 +193,8 @@ proxy-groups:
   - 'ARISTA🔥 #8'
   - 'ARISTA🔥 #9'
   - 'ARISTA🔥 #10'
+  - 'ARISTA🔥 #11'
+  - 'ARISTA🔥 #12'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
