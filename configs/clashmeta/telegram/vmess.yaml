@@ -78,27 +78,23 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: sanjose01.zgjok.com
-  port: 443
-  uuid: 96d21cfe-b264-4bf3-8349-fb076d40837e
+  server: login.rahahostagents.com
+  port: 4159
+  uuid: 28493a9c-8a0a-4694-9841-d5e871f3495f
   alterId: 0
   cipher: auto
-  network: ws
-  tls: true
+  network: tcp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: sanjose01.zgjok.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sanjose01.zgjok.com
+  servername: login.rahahostagents.com
+  client-fingerprint: ''
 - name: 'ARISTA #2'
   type: vmess
-  server: 82.198.246.9
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: login.rahahostagents.com
+  port: 4159
+  uuid: 28493a9c-8a0a-4694-9841-d5e871f3495f
   alterId: 0
   cipher: auto
   network: tcp
@@ -106,13 +102,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 82.198.246.9
-  client-fingerprint: chrome
+  servername: login.rahahostagents.com
+  client-fingerprint: ''
 - name: 'ARISTA #3'
   type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  server: login.rahahostagents.com
+  port: 4159
+  uuid: 28493a9c-8a0a-4694-9841-d5e871f3495f
   alterId: 0
   cipher: auto
   network: tcp
@@ -120,13 +116,31 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 165.154.195.38
+  servername: login.rahahostagents.com
   client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
-  server: 217.218.52.1
-  port: 11182
-  uuid: f62d2411-c34d-460b-a93e-b789e03ca8b3
+  server: www.arvancloud.ir
+  port: 80
+  uuid: ce93e8a9-47b4-47f8-82f0-ee233fb00d71
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: snappfootdigitorobfullymull.rayannob.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /rayYou
+    headers:
+      Host: snappfootdigitorobfullymull.rayannob.ir
+- name: 'ARISTA #5'
+  type: vmess
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -134,24 +148,8 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 217.218.52.1
+  servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: 94.101.178.69
-  port: 45384
-  uuid: 625dd187-60c2-40d5-899d-0af7c5c25a84
-  alterId: 0
-  cipher: auto
-  network: grpc
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 94.101.178.69
-  client-fingerprint: ''
-  grpc-opts:
-    grpc-service-name: ''
 - name: 'ARISTA #6'
   type: vmess
   server: www.arvancloud.ir
@@ -218,9 +216,9 @@ proxies:
       Host: snappfootdigitorobfullymull.rayannob.ir
 - name: 'ARISTA #10'
   type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  server: 217.218.52.1
+  port: 11182
+  uuid: f62d2411-c34d-460b-a93e-b789e03ca8b3
   alterId: 0
   cipher: auto
   network: tcp
@@ -228,41 +226,25 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.236.38.44
+  servername: 217.218.52.1
   client-fingerprint: ''
 - name: 'ARISTA #11'
   type: vmess
-  server: 185.11.89.38
-  port: 12809
-  uuid: aeddbbbd-ad95-49e8-ee31-7cacc7ede117
+  server: 94.101.178.69
+  port: 45384
+  uuid: 625dd187-60c2-40d5-899d-0af7c5c25a84
   alterId: 0
   cipher: auto
-  network: tcp
+  network: grpc
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.11.89.38
+  servername: 94.101.178.69
   client-fingerprint: ''
+  grpc-opts:
+    grpc-service-name: ''
 - name: 'ARISTA #12'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 80
-  uuid: ce93e8a9-47b4-47f8-82f0-ee233fb00d71
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: snappfootdigitorobfullymull.rayannob.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /rayYou
-    headers:
-      Host: snappfootdigitorobfullymull.rayannob.ir
-- name: 'ARISTA #13'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -275,6 +257,66 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 185.236.38.44
+  client-fingerprint: ''
+- name: 'ARISTA #13'
+  type: vmess
+  server: login.rahahostagents.com
+  port: 4159
+  uuid: 28493a9c-8a0a-4694-9841-d5e871f3495f
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: login.rahahostagents.com
+  client-fingerprint: ''
+- name: 'ARISTA #14'
+  type: vmess
+  server: sanjose01.zgjok.com
+  port: 443
+  uuid: 96d21cfe-b264-4bf3-8349-fb076d40837e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sanjose01.zgjok.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sanjose01.zgjok.com
+- name: 'ARISTA #15'
+  type: vmess
+  server: 82.198.246.9
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 82.198.246.9
+  client-fingerprint: chrome
+- name: 'ARISTA #16'
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 165.154.195.38
   client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
@@ -294,6 +336,9 @@ proxy-groups:
   - 'ARISTA #11'
   - 'ARISTA #12'
   - 'ARISTA #13'
+  - 'ARISTA #14'
+  - 'ARISTA #15'
+  - 'ARISTA #16'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -311,6 +356,9 @@ proxy-groups:
   - 'ARISTA #11'
   - 'ARISTA #12'
   - 'ARISTA #13'
+  - 'ARISTA #14'
+  - 'ARISTA #15'
+  - 'ARISTA #16'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
