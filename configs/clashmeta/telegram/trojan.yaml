@@ -78,21 +78,6 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 172.64.149.209
-  port: 443
-  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: vless.lrdxw.club
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-    headers:
-      Host: vless.lrdxw.club
-- name: 'Trojan #2'
-  type: trojan
   server: hl-freedom-1.undef.network
   port: 443
   password: GZOof2R1ej4yML1NxajR2frGQ
@@ -102,7 +87,7 @@ proxies:
   tcp-fast-open: true
   servername: HL-FREEDOM-1.UNDEF.NETWORK
   client-fingerprint: chrome
-- name: 'Trojan #3'
+- name: 'Trojan #2'
   type: trojan
   server: 176.124.201.78
   port: 2053
@@ -117,6 +102,21 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #3'
+  type: trojan
+  server: 172.64.149.209
+  port: 443
+  password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vless.lrdxw.club
+  client-fingerprint: firefox
+  ws-opts:
+    path: /
+    headers:
+      Host: vless.lrdxw.club
 - name: 'Trojan #4'
   type: trojan
   server: 15.224.29.207
@@ -143,17 +143,6 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 'Trojan #6'
-  type: trojan
-  server: 108.162.198.164
-  port: 2096
-  password: '1111'
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: v2ngfast-v2ngfast-v2ngfast-v2ngfast.pijoh30899.workers.dev
-  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -164,7 +153,6 @@ proxy-groups:
   - 'Trojan #3'
   - 'Trojan #4'
   - 'Trojan #5'
-  - 'Trojan #6'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -174,7 +162,6 @@ proxy-groups:
   - 'Trojan #3'
   - 'Trojan #4'
   - 'Trojan #5'
-  - 'Trojan #6'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
