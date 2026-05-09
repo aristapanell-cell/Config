@@ -76,14 +76,6 @@ sniffer:
       - 2087
       - 2096
 proxies:
-- name: 'ARISTA🔥 #1'
-  type: ss
-  server: 130.51.22.40
-  port: 2096
-  cipher: chacha20-ietf-poly1305
-  password: EZpdo76F11FSURWDKmxQwA
-  udp: true
-  tcp-fast-open: true
 - name: 'ARISTA🔥 #2'
   type: ss
   server: 185.117.91.27
@@ -142,6 +134,14 @@ proxies:
   tcp-fast-open: true
 - name: 'ARISTA🔥 #9'
   type: ss
+  server: 130.51.22.40
+  port: 2096
+  cipher: chacha20-ietf-poly1305
+  password: EZpdo76F11FSURWDKmxQwA
+  udp: true
+  tcp-fast-open: true
+- name: 'ARISTA🔥 #10'
+  type: ss
   server: 83.166.250.6
   port: 51572
   cipher: chacha20-ietf-poly1305
@@ -169,7 +169,6 @@ proxy-groups:
   type: select
   proxies:
   - Auto Select
-  - 'ARISTA🔥 #1'
   - 'ARISTA🔥 #2'
   - 'ARISTA🔥 #3'
   - 'ARISTA🔥 #4'
@@ -178,13 +177,13 @@ proxy-groups:
   - 'ARISTA🔥 #7'
   - 'ARISTA🔥 #8'
   - 'ARISTA🔥 #9'
+  - 'ARISTA🔥 #10'
   - 'ARISTA🔥 #11'
   - 'ARISTA🔥 #12'
   - DIRECT
 - name: Auto Select
   type: url-test
   proxies:
-  - 'ARISTA🔥 #1'
   - 'ARISTA🔥 #2'
   - 'ARISTA🔥 #3'
   - 'ARISTA🔥 #4'
@@ -193,6 +192,7 @@ proxy-groups:
   - 'ARISTA🔥 #7'
   - 'ARISTA🔥 #8'
   - 'ARISTA🔥 #9'
+  - 'ARISTA🔥 #10'
   - 'ARISTA🔥 #11'
   - 'ARISTA🔥 #12'
   url: http://www.gstatic.com/generate_204
