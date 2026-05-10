@@ -92,9 +92,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #2'
   type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21156
+  uuid: c9029cc1-6ea4-4ca7-8886-9517d1b8ab3d
   alterId: 0
   cipher: auto
   network: tcp
@@ -102,59 +102,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.236.38.44
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 - name: 'ARISTA #3'
-  type: vmess
-  server: labayk.ya.khamenei.soft98ver2.azumiral.top
-  port: 2090
-  uuid: a9c164d7-3683-489a-e00b-871f4aaad8bc
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: labayk.ya.khamenei.soft98ver2.azumiral.top
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: ca61-172-203-253-164.ngrok-free.app
-  port: 443
-  uuid: 78942e81-0cde-4241-b550-08d02960fb4f
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: netlify.parsashonam.sbs
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: netlify.parsashonam.sbs
-- name: 'ARISTA #5'
-  type: vmess
-  server: 94.183.159.100
-  port: 8444
-  uuid: 41e0982a-c12d-42b7-b01e-2292d064957c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 94.183.159.100
-  client-fingerprint: ''
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 94.183.159.100
-- name: 'ARISTA #6'
   type: vmess
   server: dn.torontomovie.com
   port: 8080
@@ -168,7 +118,7 @@ proxies:
   tcp-fast-open: true
   servername: dn.torontomovie.com
   client-fingerprint: ''
-- name: 'ARISTA #7'
+- name: 'ARISTA #4'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -182,7 +132,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #8'
+- name: 'ARISTA #5'
   type: vmess
   server: www.arvancloud.ir
   port: 8080
@@ -200,7 +150,7 @@ proxies:
     path: /aria
     headers:
       Host: vip6.ariatakpoyan.ir
-- name: 'ARISTA #9'
+- name: 'ARISTA #6'
   type: vmess
   server: 82.198.246.9
   port: 180
@@ -214,11 +164,11 @@ proxies:
   tcp-fast-open: true
   servername: usaapp2.jisuyun.top
   client-fingerprint: chrome
-- name: 'ARISTA #10'
+- name: 'ARISTA #7'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21156
-  uuid: c9029cc1-6ea4-4ca7-8886-9517d1b8ab3d
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -226,26 +176,8 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #11'
-  type: vmess
-  server: cf.scpnb.top
-  port: 443
-  uuid: bee9e6f4-5731-43dc-a826-0c14e0c7111b
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: samba-fri-labs-contain.trycloudflare.com
-  client-fingerprint: ''
-  ws-opts:
-    path: /bee9e6f4-5731-43dc-a826-0c14e0c7111b-vm
-    headers:
-      Host: samba-fri-labs-contain.trycloudflare.com
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -258,10 +190,6 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'ARISTA #9'
-  - 'ARISTA #10'
-  - 'ARISTA #11'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -273,10 +201,6 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'ARISTA #9'
-  - 'ARISTA #10'
-  - 'ARISTA #11'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
