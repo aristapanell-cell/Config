@@ -78,21 +78,6 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 50.7.4.243
-  port: 443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tr
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #2'
-  type: trojan
   server: 79.127.82.170
   port: 443
   password: 2a599135-886f-4359-bf68-0993baa990f1
@@ -110,22 +95,7 @@ proxies:
     path: /1000/10/b449693f-1869-4379-946d-279f2ad95021
     headers:
       Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd
-- name: 'Trojan #3'
-  type: trojan
-  server: 79.127.82.170
-  port: 443
-  password: 2a599135-886f-4359-bf68-0993baa990f1
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd
-  client-fingerprint: safari
-  ws-opts:
-    path: /1000/10/b449693f-1869-4379-946d-279f2ad95021
-    headers:
-      Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd
-- name: 'Trojan #4'
+- name: 'Trojan #2'
   type: trojan
   server: 8.6.112.0
   port: 443
@@ -140,7 +110,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: 'Trojan #5'
+- name: 'Trojan #3'
   type: trojan
   server: allnet-triss-aaa.gamelip.com
   port: 7080
@@ -151,7 +121,7 @@ proxies:
   tcp-fast-open: true
   servername: allnet7080-sa-aaaaccc-aaa.nexitie.com
   client-fingerprint: chrome
-- name: 'Trojan #6'
+- name: 'Trojan #4'
   type: trojan
   server: 172.64.146.129
   port: 443
@@ -168,7 +138,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #7'
+- name: 'Trojan #5'
   type: trojan
   server: 162.159.152.2
   port: 443
@@ -185,7 +155,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #8'
+- name: 'Trojan #6'
   type: trojan
   server: 162.159.153.212
   port: 2087
@@ -200,7 +170,7 @@ proxies:
     path: /
     headers:
       Host: sheleqaz.emotionreza.workers.dev
-- name: 'Trojan #9'
+- name: 'Trojan #7'
   type: trojan
   server: 79.127.82.170
   port: 443
@@ -219,7 +189,7 @@ proxies:
     path: /1000/10/b449693f-1869-4379-946d-279f2ad95021
     headers:
       Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd
-- name: 'Trojan #10'
+- name: 'Trojan #8'
   type: trojan
   server: 27.50.48.253
   port: 443
@@ -234,7 +204,22 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #11'
+- name: 'Trojan #9'
+  type: trojan
+  server: 50.7.4.243
+  port: 443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /tr
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #10'
   type: trojan
   server: 162.159.152.4
   port: 443
@@ -248,7 +233,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'Trojan #12'
+- name: 'Trojan #11'
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -279,7 +264,6 @@ proxy-groups:
   - 'Trojan #9'
   - 'Trojan #10'
   - 'Trojan #11'
-  - 'Trojan #12'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -295,7 +279,6 @@ proxy-groups:
   - 'Trojan #9'
   - 'Trojan #10'
   - 'Trojan #11'
-  - 'Trojan #12'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
