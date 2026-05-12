@@ -78,20 +78,31 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 50.7.4.243
+  server: 8.6.112.0
   port: 443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+  password: humanity
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
+  servername: www.multiplydose.com
   client-fingerprint: chrome
   ws-opts:
-    path: /tr
+    path: /assignment
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      Host: www.multiplydose.com
 - name: 'Trojan #2'
+  type: trojan
+  server: allnet-triss-aaa.gamelip.com
+  port: 7080
+  password: Jl03LDoDjF
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: allnet7080-sa-aaaaccc-aaa.nexitie.com
+  client-fingerprint: chrome
+- name: 'Trojan #3'
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -106,7 +117,37 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: 'Trojan #3'
+- name: 'Trojan #4'
+  type: trojan
+  server: 8.6.112.0
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #5'
+  type: trojan
+  server: 50.7.4.243
+  port: 443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /tr
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #6'
   type: trojan
   server: 162.159.36.20
   port: 443
@@ -123,7 +164,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #4'
+- name: 'Trojan #7'
   type: trojan
   server: 172.64.146.129
   port: 443
@@ -140,9 +181,26 @@ proxies:
     path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #5'
+- name: 'Trojan #8'
   type: trojan
-  server: 3.65.55.47
+  server: 162.159.152.2
+  port: 443
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sni.111000.dynv6.net
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /?proxyip=ip.111000.de5.net%3A443
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 'Trojan #9'
+  type: trojan
+  server: 13.38.154.94
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -153,9 +211,9 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 'Trojan #6'
+- name: 'Trojan #10'
   type: trojan
-  server: 13.38.154.94
+  server: 13.36.109.123
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -177,6 +235,10 @@ proxy-groups:
   - 'Trojan #4'
   - 'Trojan #5'
   - 'Trojan #6'
+  - 'Trojan #7'
+  - 'Trojan #8'
+  - 'Trojan #9'
+  - 'Trojan #10'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -187,6 +249,10 @@ proxy-groups:
   - 'Trojan #4'
   - 'Trojan #5'
   - 'Trojan #6'
+  - 'Trojan #7'
+  - 'Trojan #8'
+  - 'Trojan #9'
+  - 'Trojan #10'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
