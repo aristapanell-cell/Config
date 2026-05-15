@@ -78,77 +78,6 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 52.28.27.2
-  port: 22222
-  password: telegram-id-privatevpns
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 'Trojan #2'
-  type: trojan
-  server: 51.44.198.68
-  port: 22222
-  password: telegram-id-privatevpns
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 'Trojan #3'
-  type: trojan
-  server: 172.64.149.54
-  port: 2096
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tr
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #4'
-  type: trojan
-  server: www.multiplydose.com
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
-- name: 'Trojan #5'
-  type: trojan
-  server: 8.6.112.0
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
-- name: 'Trojan #6'
-  type: trojan
   server: 92.243.74.253
   port: 443
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -162,7 +91,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #7'
+- name: 'Trojan #2'
   type: trojan
   server: 162.159.153.212
   port: 2087
@@ -177,7 +106,7 @@ proxies:
     path: /
     headers:
       Host: sheleqaz.emotionreza.workers.dev
-- name: 'Trojan #8'
+- name: 'Trojan #3'
   type: trojan
   server: 104.17.185.207
   port: 443
@@ -194,7 +123,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net:443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #9'
+- name: 'Trojan #4'
   type: trojan
   server: 152.53.200.163
   port: 8443
@@ -209,21 +138,60 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #10'
+- name: 'Trojan #5'
   type: trojan
-  server: 104.18.16.56
+  server: 52.28.27.2
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.burgerip.co.uk
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 'Trojan #6'
+  type: trojan
+  server: 51.44.198.68
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.burgerip.co.uk
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 'Trojan #7'
+  type: trojan
+  server: 13.38.241.41
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.burgerip.co.uk
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 'Trojan #8'
+  type: trojan
+  server: 8.6.112.0
   port: 443
   password: humanity
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.creationlong.org
+  servername: www.multiplydose.com
   client-fingerprint: chrome
   ws-opts:
     path: /assignment
     headers:
-      Host: www.creationlong.org
+      Host: www.multiplydose.com
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -237,8 +205,6 @@ proxy-groups:
   - 'Trojan #6'
   - 'Trojan #7'
   - 'Trojan #8'
-  - 'Trojan #9'
-  - 'Trojan #10'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -251,8 +217,6 @@ proxy-groups:
   - 'Trojan #6'
   - 'Trojan #7'
   - 'Trojan #8'
-  - 'Trojan #9'
-  - 'Trojan #10'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
