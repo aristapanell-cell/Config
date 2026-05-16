@@ -1,5 +1,5 @@
 # Combined TROJAN Configurations
-# Updated: 2026-05-16 19:34:42
+# Updated: 2026-05-16 20:24:28
 # Count: 149
 # Sources: Telegram (4) + GitHub (145)
 
