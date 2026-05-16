@@ -78,6 +78,20 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
+  server: client.baravardeh.top
+  port: 3180
+  uuid: a34cac32-c71b-4cf1-9bbc-849fd86cbb3b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: client.baravardeh.top
+  client-fingerprint: ''
+- name: 'ARISTA #2'
+  type: vmess
   server: ak.reata.ir
   port: 16482
   uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c
@@ -90,7 +104,7 @@ proxies:
   tcp-fast-open: true
   servername: ak.reata.ir
   client-fingerprint: ''
-- name: 'ARISTA #2'
+- name: 'ARISTA #3'
   type: vmess
   server: network.spacestar.best
   port: 2082
@@ -108,20 +122,6 @@ proxies:
     path: /newserver
     headers:
       Host: januray.helxx.ir
-- name: 'ARISTA #3'
-  type: vmess
-  server: client.baravardeh.top
-  port: 3180
-  uuid: a34cac32-c71b-4cf1-9bbc-849fd86cbb3b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: client.baravardeh.top
-  client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
@@ -166,9 +166,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #7'
   type: vmess
-  server: ak.reata.ir
-  port: 16482
-  uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21958
+  uuid: 39d6990b-f757-4703-a7f9-df266505b63d
   alterId: 0
   cipher: auto
   network: tcp
@@ -176,26 +176,8 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ak.reata.ir
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #8'
-  type: vmess
-  server: network.spacestar.best
-  port: 2082
-  uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -208,7 +190,6 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
-  - 'ARISTA #8'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -220,7 +201,6 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
-  - 'ARISTA #8'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
