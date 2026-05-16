@@ -78,10 +78,10 @@ sniffer:
 proxies:
 - name: 'ARISTA🔥 #1'
   type: ss
-  server: 193.151.108.76
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #2'
@@ -158,18 +158,18 @@ proxies:
   tcp-fast-open: true
 - name: 'ARISTA🔥 #11'
   type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  server: 102.129.229.85
+  port: 31700
+  cipher: chacha20-ietf-poly1305
+  password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #12'
   type: ss
-  server: 82.38.31.149
-  port: 8080
+  server: 193.151.108.76
+  port: 8388
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #13'
