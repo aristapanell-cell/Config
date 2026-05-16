@@ -78,24 +78,6 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: network.spacestar.best
-  port: 2082
-  uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
-- name: 'ARISTA #2'
-  type: vmess
   server: shop.fastit.top
   port: 6144
   uuid: 70ce59eb-3ea0-4966-8141-49f368af46a1
@@ -108,67 +90,7 @@ proxies:
   tcp-fast-open: true
   servername: shop.fastit.top
   client-fingerprint: ''
-- name: 'ARISTA #3'
-  type: vmess
-  server: 185.11.89.38
-  port: 12809
-  uuid: aeddbbbd-ad95-49e8-ee31-7cacc7ede117
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.11.89.38
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: network.spacestar.best
-  port: 2082
-  uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
-- name: 'ARISTA #5'
-  type: vmess
-  server: client.baravardeh.top
-  port: 3180
-  uuid: a34cac32-c71b-4cf1-9bbc-849fd86cbb3b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: client.baravardeh.top
-  client-fingerprint: ''
-- name: 'ARISTA #6'
-  type: vmess
-  server: av.reata.ir
-  port: 33795
-  uuid: c94dda40-44a6-413f-815e-0a7925b94b0a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: av.reata.ir
-  client-fingerprint: ''
-- name: 'ARISTA #7'
+- name: 'ARISTA #2'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 21924
@@ -182,7 +104,7 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #8'
+- name: 'ARISTA #3'
   type: vmess
   server: snapp.ir
   port: 8880
@@ -200,7 +122,7 @@ proxies:
     path: /
     headers:
       Host: dl600tobi.sudoserver.ir
-- name: 'ARISTA #9'
+- name: 'ARISTA #4'
   type: vmess
   server: snapp.ir
   port: 8880
@@ -218,7 +140,99 @@ proxies:
     path: /
     headers:
       Host: dl600tobi.sudoserver.ir
+- name: 'ARISTA #5'
+  type: vmess
+  server: 185.11.89.38
+  port: 12809
+  uuid: aeddbbbd-ad95-49e8-ee31-7cacc7ede117
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.11.89.38
+  client-fingerprint: ''
+- name: 'ARISTA #6'
+  type: vmess
+  server: network.spacestar.best
+  port: 2082
+  uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: januray.helxx.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /newserver
+    headers:
+      Host: januray.helxx.ir
+- name: 'ARISTA #7'
+  type: vmess
+  server: client.baravardeh.top
+  port: 3180
+  uuid: a34cac32-c71b-4cf1-9bbc-849fd86cbb3b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: client.baravardeh.top
+  client-fingerprint: ''
+- name: 'ARISTA #8'
+  type: vmess
+  server: av.reata.ir
+  port: 33795
+  uuid: c94dda40-44a6-413f-815e-0a7925b94b0a
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: av.reata.ir
+  client-fingerprint: ''
+- name: 'ARISTA #9'
+  type: vmess
+  server: network.spacestar.best
+  port: 2082
+  uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: januray.helxx.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /newserver
+    headers:
+      Host: januray.helxx.ir
 - name: 'ARISTA #10'
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: aes-128-gcm
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 67.220.95.3
+  client-fingerprint: chrome
+- name: 'ARISTA #11'
   type: vmess
   server: www.arvancloud.ir
   port: 2095
@@ -236,6 +250,38 @@ proxies:
     path: /ViPService
     headers:
       Host: ViP-ServiceSellerINTelegram.hayperz.ir
+- name: 'ARISTA #12'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21951
+  uuid: 983a2b8e-19fc-4699-a772-956ce2877a75
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #13'
+  type: vmess
+  server: network.spacestar.best
+  port: 2082
+  uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: januray.helxx.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /newserver
+    headers:
+      Host: januray.helxx.ir
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -251,6 +297,9 @@ proxy-groups:
   - 'ARISTA #8'
   - 'ARISTA #9'
   - 'ARISTA #10'
+  - 'ARISTA #11'
+  - 'ARISTA #12'
+  - 'ARISTA #13'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -265,6 +314,9 @@ proxy-groups:
   - 'ARISTA #8'
   - 'ARISTA #9'
   - 'ARISTA #10'
+  - 'ARISTA #11'
+  - 'ARISTA #12'
+  - 'ARISTA #13'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
