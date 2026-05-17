@@ -104,23 +104,6 @@ proxies:
   - http/1.1
 - name: 'Trojan #3'
   type: trojan
-  server: 162.159.36.20
-  port: 443
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /?proxyip=ip.111000.de5.net:443
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 'Trojan #4'
-  type: trojan
   server: 37.46.19.79
   port: 8443
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -134,10 +117,25 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #5'
+- name: 'Trojan #4'
   type: trojan
   server: 46.101.160.68
   port: 2096
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #5'
+  type: trojan
+  server: 77.221.157.251
+  port: 2083
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
   udp: true

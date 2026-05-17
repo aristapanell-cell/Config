@@ -78,6 +78,20 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22001
+  uuid: 7b170952-8a7b-4638-94f4-f7737154afe3
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #2'
+  type: vmess
   server: ak.reata.ir
   port: 16482
   uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c
@@ -90,7 +104,7 @@ proxies:
   tcp-fast-open: true
   servername: ak.reata.ir
   client-fingerprint: ''
-- name: 'ARISTA #2'
+- name: 'ARISTA #3'
   type: vmess
   server: network.spacestar.best
   port: 2082
@@ -115,12 +129,14 @@ proxy-groups:
   - Auto Select
   - 'ARISTA #1'
   - 'ARISTA #2'
+  - 'ARISTA #3'
   - DIRECT
 - name: Auto Select
   type: url-test
   proxies:
   - 'ARISTA #1'
   - 'ARISTA #2'
+  - 'ARISTA #3'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
