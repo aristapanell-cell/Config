@@ -21400,6 +21400,103 @@ proxies:
     short-id: 21432a79954b
 - name: 'T.ME: @aristapnel #1017'
   type: vless
+  server: pivo5.ikisky.com
+  port: 443
+  uuid: b9d56e59-02ee-4af0-9963-b3650f8a1387
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: pivo5.ikisky.com
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4
+    short-id: 49c667cd18477438
+- name: 'T.ME: @aristapnel #1018'
+  type: vless
+  server: 8.219.213.195
+  port: 10032
+  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 8.219.213.195
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+- name: 'T.ME: @aristapnel #1019'
+  type: vless
+  server: 43.161.219.163
+  port: 22335
+  uuid: a3a8c354-a85c-477b-90f3-dbe08cadf31c
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: zPM3iLhD0ppwxYWzwiXFhQd1PwXCjFN9u28DbXdy604
+    short-id: a2346cd0
+- name: 'T.ME: @aristapnel #1020'
+  type: vless
+  server: 141.193.213.21
+  port: 80
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: free-server.techsonic.ggff.net
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  ws-opts:
+    path: /@Tech_Sonic
+    headers:
+      Host: free-server.techsonic.ggff.net
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1021'
+  type: vless
+  server: 14.39.208.40
+  port: 17000
+  uuid: f5deb215-0e9e-4600-b231-3f737d0946ad
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vpn4.rnmcnm.com
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /2mwmynj3fqzmy1xo
+    headers:
+      Host: vpn4.rnmcnm.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1022'
+  type: vless
   server: 3.8.160.120
   port: 18633
   uuid: 5da5bc00-ea44-462e-bdb7-7687346ad039
@@ -21418,7 +21515,27 @@ proxies:
   reality-opts:
     public-key: tpovASeNxNkqDfPZhr2raGUY6pis-9XSLCB6DrIEU1g
     short-id: d9029b790f10b2e2
-- name: 'T.ME: @aristapnel #1018'
+- name: 'T.ME: @aristapnel #1023'
+  type: vless
+  server: 67.102.180.16
+  port: 443
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.microsoft.com
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 3j9h81MFAlsEOQ4K1ey1XD0tz1aEVNaMGMoMjQwif1w
+    short-id: '16'
+- name: 'T.ME: @aristapnel #1024'
   type: vless
   server: ee18.mechvpn.online
   port: 443
@@ -21435,9 +21552,9 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #1019'
+- name: 'T.ME: @aristapnel #1025'
   type: vless
-  server: hk.chinablog.xyz
+  server: 47.238.131.120
   port: 8080
   uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
   network: tcp
@@ -21455,50 +21572,7 @@ proxies:
   reality-opts:
     public-key: bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM
     short-id: ''
-- name: 'T.ME: @aristapnel #1020'
-  type: vless
-  server: 188.72.103.3
-  port: 443
-  uuid: 45e55198-a5ad-4f19-bb39-236822141d25
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cdn.tracker.yandex.net
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /stream/updates/b66b78d7/019dfd7f-0777-6283-7287-911777c3720f4
-    headers:
-      Host: cdn.tracker.yandex.net
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1021'
-  type: vless
-  server: 45.140.204.119
-  port: 443
-  uuid: 30143e07-b734-4bd6-867c-7daf4782cccb
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: yahoo.com
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: vl5WQd9UDA3DvLxPPS1yF9ivUipxkxoxhaBRHpnyLho
-    short-id: 67fb
-- name: 'T.ME: @aristapnel #1022'
+- name: 'T.ME: @aristapnel #1026'
   type: vless
   server: 45.12.133.207
   port: 443
@@ -21518,27 +21592,7 @@ proxies:
   reality-opts:
     public-key: 0T96I8dvAUF7BxhbwTp0PfFfy9AHFDsXXpwDnP0i224
     short-id: 4dd1
-- name: 'T.ME: @aristapnel #1023'
-  type: vless
-  server: 45.15.160.132
-  port: 443
-  uuid: 0b89c53e-1d55-463f-90d7-f28b0e17b8a7
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: yahoo.com
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: 2YrB1VDud3ZDZp-fnEGO7BKsHZQN9NVJuXU_5j-uzVI
-    short-id: ddb9
-- name: 'T.ME: @aristapnel #1024'
+- name: 'T.ME: @aristapnel #1027'
   type: vless
   server: 50.228.203.26
   port: 443
@@ -21561,7 +21615,7 @@ proxies:
       Host: babayaga-6i7.pages.dev
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1025'
+- name: 'T.ME: @aristapnel #1028'
   type: vless
   server: 91.244.70.205
   port: 443
@@ -21581,30 +21635,24 @@ proxies:
       Host: 91.244.70.205
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1026'
+- name: 'T.ME: @aristapnel #1029'
   type: vless
-  server: 50.228.203.26
+  server: ohio1.ap221.com
   port: 443
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  network: ws
+  uuid: 2bd9c075-e47a-46d8-a777-93baa759d8aa
+  network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: babayaga-6i7.pages.dev
-  flow: ''
+  servername: ohio.ap221.com
+  flow: xtls-rprx-vision-udp443
   client-fingerprint: chrome
   packet-encoding: xudp
   alpn:
   - h2
   - http/1.1
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: babayaga-6i7.pages.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1027'
+- name: 'T.ME: @aristapnel #1030'
   type: vless
   server: ul-mexico1.09vpn.com
   port: 8443
@@ -21627,7 +21675,7 @@ proxies:
       Host: ul-mexico1.09vpn.com
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1028'
+- name: 'T.ME: @aristapnel #1031'
   type: vless
   server: 138.124.9.190
   port: 16558
@@ -21647,76 +21695,30 @@ proxies:
   reality-opts:
     public-key: vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4
     short-id: 0a856e071790b1
-- name: 'T.ME: @aristapnel #1029'
-  type: vless
-  server: 50.228.203.26
-  port: 443
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: babayaga-6i7.pages.dev
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: babayaga-6i7.pages.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1030'
-  type: vless
-  server: 220.118.83.101
-  port: 60004
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sni.111000.v6.army
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1031'
-  type: vless
-  server: 121.175.77.73
-  port: 10333
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sni.111000.v6.army
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 'T.ME: @aristapnel #1032'
+  type: vless
+  server: 218.158.249.174
+  port: 10000
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sni.111000.v6.army
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.v6.army
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1033'
   type: vless
   server: 222.97.254.167
   port: 34599
@@ -21739,10 +21741,10 @@ proxies:
       Host: sni.111000.v6.army
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1033'
+- name: 'T.ME: @aristapnel #1034'
   type: vless
-  server: 59.31.107.42
-  port: 13720
+  server: 121.191.33.84
+  port: 30303
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
@@ -21762,7 +21764,7 @@ proxies:
       Host: sni.111000.v6.army
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1034'
+- name: 'T.ME: @aristapnel #1035'
   type: vless
   server: 8.216.21.135
   port: 10026
@@ -21776,7 +21778,7 @@ proxies:
   flow: ''
   client-fingerprint: chrome
   packet-encoding: xudp
-- name: 'T.ME: @aristapnel #1035'
+- name: 'T.ME: @aristapnel #1036'
   type: vless
   server: 84.234.16.169
   port: 443
@@ -21799,7 +21801,7 @@ proxies:
       Host: edt2-lgy.pages.dev
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1036'
+- name: 'T.ME: @aristapnel #1037'
   type: vless
   server: 47.79.144.103
   port: 25242
@@ -21819,7 +21821,7 @@ proxies:
       Host: 47.79.144.103
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1037'
+- name: 'T.ME: @aristapnel #1038'
   type: vless
   server: dongjing4.zqjsqapi.com
   port: 443
@@ -21842,7 +21844,30 @@ proxies:
       Host: dongjing4.zqjsqapi.com
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1038'
+- name: 'T.ME: @aristapnel #1039'
+  type: vless
+  server: 139.84.235.99
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 1-jk1.pages.dev
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /
+    headers:
+      Host: 1-jk1.pages.dev
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1040'
   type: vless
   server: 95.85.243.216
   port: 443
@@ -21862,9 +21887,9 @@ proxies:
   reality-opts:
     public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
     short-id: 6ba85179e30d4fc2
-- name: 'T.ME: @aristapnel #1039'
+- name: 'T.ME: @aristapnel #1041'
   type: vless
-  server: 144.31.131.33
+  server: cdn.cdnjst.org
   port: 443
   uuid: ae852d97-85f5-45cf-82a4-254eba345480
   network: tcp
@@ -21882,7 +21907,7 @@ proxies:
   reality-opts:
     public-key: djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc
     short-id: a120
-- name: 'T.ME: @aristapnel #1040'
+- name: 'T.ME: @aristapnel #1042'
   type: vless
   server: 91.199.50.37
   port: 443
@@ -21902,7 +21927,7 @@ proxies:
   reality-opts:
     public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
     short-id: c906f73d3ba8211f
-- name: 'T.ME: @aristapnel #1041'
+- name: 'T.ME: @aristapnel #1043'
   type: vless
   server: 38.180.11.15
   port: 443
@@ -21925,7 +21950,7 @@ proxies:
       Host: 3-7v4.pages.dev
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1042'
+- name: 'T.ME: @aristapnel #1044'
   type: vless
   server: 152.53.1.32
   port: 7443
@@ -21945,27 +21970,7 @@ proxies:
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
     short-id: d82fb387
-- name: 'T.ME: @aristapnel #1043'
-  type: vless
-  server: 64.176.166.143
-  port: 443
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: store.steampowered.com
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: tboI265nKvT77HoZPyA6bgZNuLap_Jy-XvAx2-4Rcwk
-    short-id: 0c1553316a645758
-- name: 'T.ME: @aristapnel #1044'
+- name: 'T.ME: @aristapnel #1045'
   type: vless
   server: 77.81.98.70
   port: 443
@@ -21985,7 +21990,7 @@ proxies:
   reality-opts:
     public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
     short-id: 9b4fc5a116efd6c8
-- name: 'T.ME: @aristapnel #1045'
+- name: 'T.ME: @aristapnel #1046'
   type: vless
   server: 2.56.127.207
   port: 443
@@ -22005,26 +22010,6 @@ proxies:
   reality-opts:
     public-key: XkRQUOLTBAiIXB1MK9oJwlfn-9XnH53ykk5UE6rDyFc
     short-id: d4356669ea880400
-- name: 'T.ME: @aristapnel #1046'
-  type: vless
-  server: 70.34.201.81
-  port: 443
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.booking.com
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: Mm-d06LgjpLq_Y0aTRuf8cbueCumBku9r4ygFUGTE2o
-    short-id: 7b7c7376cba460cf
 - name: 'T.ME: @aristapnel #1047'
   type: vless
   server: 45.82.254.107
@@ -22047,26 +22032,6 @@ proxies:
     short-id: 4929ddcb86e785f7
 - name: 'T.ME: @aristapnel #1048'
   type: vless
-  server: 178.159.10.78
-  port: 443
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.vodafone.co.uk
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
-    short-id: d27683580fc15f1e
-- name: 'T.ME: @aristapnel #1049'
-  type: vless
   server: uk1.fromblancwithlove.com
   port: 8443
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -22082,7 +22047,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #1050'
+- name: 'T.ME: @aristapnel #1049'
   type: vless
   server: 2.56.172.83
   port: 8443
@@ -22102,7 +22067,7 @@ proxies:
   reality-opts:
     public-key: TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI
     short-id: ''
-- name: 'T.ME: @aristapnel #1051'
+- name: 'T.ME: @aristapnel #1050'
   type: vless
   server: 195.181.173.199
   port: 8443
@@ -22119,7 +22084,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #1052'
+- name: 'T.ME: @aristapnel #1051'
   type: vless
   server: 103.231.73.181
   port: 8443
@@ -22139,7 +22104,7 @@ proxies:
   reality-opts:
     public-key: TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI
     short-id: ''
-- name: 'T.ME: @aristapnel #1053'
+- name: 'T.ME: @aristapnel #1052'
   type: vless
   server: 45.12.146.179
   port: 8443
@@ -22159,72 +22124,7 @@ proxies:
   reality-opts:
     public-key: TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI
     short-id: ''
-- name: 'T.ME: @aristapnel #1054'
-  type: vless
-  server: 77.92.145.222
-  port: 443
-  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.vk.com
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: sSD0sNHv6R3VC1zy_etv-mOTLAurVq3xid4xWne3TxI
-    short-id: 4730242d
-- name: 'T.ME: @aristapnel #1055'
-  type: vless
-  server: 82.26.91.244
-  port: 443
-  uuid: 6f99ed2f-9879-40e3-b5b4-5590c60f8e4a
-  network: grpc
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: vk.ru
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: GunService
-  reality-opts:
-    public-key: g8IbVqG1g7ht5ckWvYgOxZ9CrStwZt8QYQmTEwIWsTU
-    short-id: b5
-- name: 'T.ME: @aristapnel #1056'
-  type: vless
-  server: vpn3.rnmcnm.com
-  port: 443
-  uuid: c3d4e5f6-7890-1234-5678-90abcdef1234
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: vpn3.rnmcnm.com
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /ray
-    headers:
-      Host: vpn3.rnmcnm.com
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1057'
+- name: 'T.ME: @aristapnel #1053'
   type: vless
   server: 172.64.147.255
   port: 80
@@ -22244,7 +22144,7 @@ proxies:
       Host: tt.andishehparenting.com
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1058'
+- name: 'T.ME: @aristapnel #1054'
   type: vless
   server: 80.92.205.57
   port: 443
@@ -22264,29 +22164,9 @@ proxies:
   reality-opts:
     public-key: MA_hDjnzRmn4qL60EqyybXYzuE_2Ap8FhJQ82szMDww
     short-id: 1434b433
-- name: 'T.ME: @aristapnel #1059'
+- name: 'T.ME: @aristapnel #1055'
   type: vless
-  server: fr.denditop.site
-  port: 443
-  uuid: 256c5f48-4908-4255-83d1-c86cb58f22b4
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: fr.denditop.site
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
-    short-id: 9c2378562188c3cb
-- name: 'T.ME: @aristapnel #1060'
-  type: vless
-  server: austria.denditop.site
+  server: 152.53.47.91
   port: 443
   uuid: 256c5f48-4908-4255-83d1-c86cb58f22b4
   network: tcp
@@ -22304,7 +22184,7 @@ proxies:
   reality-opts:
     public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
     short-id: 9c2378562188c3cb
-- name: 'T.ME: @aristapnel #1061'
+- name: 'T.ME: @aristapnel #1056'
   type: vless
   server: 152.53.46.104
   port: 443
@@ -22324,27 +22204,7 @@ proxies:
   reality-opts:
     public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
     short-id: 9c2378562188c3cb
-- name: 'T.ME: @aristapnel #1062'
-  type: vless
-  server: 213.136.69.8
-  port: 80
-  uuid: 15cbab96-197e-46a5-9042-073b3980c798
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: fsdns.ectunnelvpn.me
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  ws-opts:
-    path: /vless
-    headers:
-      Host: fsdns.ectunnelvpn.me
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1063'
+- name: 'T.ME: @aristapnel #1057'
   type: vless
   server: 45.12.111.151
   port: 443
@@ -22364,17 +22224,17 @@ proxies:
   reality-opts:
     public-key: Z--Ieq3GtHx_Qtqj3NUyK5wY2foVBtlOkyzXqESeswU
     short-id: 0c80cc39
-- name: 'T.ME: @aristapnel #1064'
+- name: 'T.ME: @aristapnel #1058'
   type: vless
-  server: 92.53.190.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: openai.com
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   network: ws
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: sni.111000.indevs.in
+  servername: 2-1ng.pages.dev
   flow: ''
   client-fingerprint: chrome
   packet-encoding: xudp
@@ -22384,58 +22244,35 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: 2-1ng.pages.dev
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1065'
+- name: 'T.ME: @aristapnel #1059'
   type: vless
-  server: 185.148.106.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: cf6.danfeng.eu.org
+  port: 2087
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   network: ws
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: sni.111000.indevs.in
+  servername: juzi8186.qea.ccwu.cc
   flow: ''
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   packet-encoding: xudp
   alpn:
   - h2
   - http/1.1
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2=
+    path: /info/readme/items/juzibaipiao?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: juzi8186.qea.ccwu.cc
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1066'
+- name: 'T.ME: @aristapnel #1060'
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sni.111000.indevs.in
-  flow: ''
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /?telegram🇨🇳 @wangcai2=
-    headers:
-      Host: sni.111000.indevs.in
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1067'
-  type: vless
-  server: 104.18.42.40
+  server: 104.21.3.96
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -22443,7 +22280,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: sni.111000.v6.army
+  servername: sni.111000.v6.navy
   flow: ''
   client-fingerprint: chrome
   packet-encoding: xudp
@@ -22451,12 +22288,78 @@ proxies:
   - h2
   - http/1.1
   ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
+    path: /
     headers:
-      Host: sni.111000.v6.army
+      Host: sni.111000.v6.navy
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #1068'
+- name: 'T.ME: @aristapnel #1061'
+  type: vless
+  server: 8.39.125.251
+  port: 2096
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cocobaby.pages.dev
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /
+    headers:
+      Host: cocobaby.pages.dev
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1062'
+  type: vless
+  server: 167.68.42.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sni.my111000.tech
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.my111000.tech
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1063'
+  type: vless
+  server: 54.37.75.187
+  port: 443
+  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.speedtest.net
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
+    short-id: 479826bdfc3eb86e
+- name: 'T.ME: @aristapnel #1064'
   type: vless
   server: 91.218.143.194
   port: 43798
@@ -22476,17 +22379,17 @@ proxies:
   reality-opts:
     public-key: W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU
     short-id: f71c22
-- name: 'T.ME: @aristapnel #1069'
+- name: 'T.ME: @aristapnel #1065'
   type: vless
-  server: 107.181.151.39
+  server: 138.124.186.100
   port: 443
-  uuid: ff40696b-06d6-443b-9481-8d01eddd13e1
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.foxsports.com
+  servername: www.fh-aachen.de
   flow: xtls-rprx-vision
   client-fingerprint: chrome
   packet-encoding: xudp
@@ -22494,8 +22397,87 @@ proxies:
   - h2
   - http/1.1
   reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: d659da01fb94
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+- name: 'T.ME: @aristapnel #1066'
+  type: vless
+  server: 129.159.119.161
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: juzi8186.qea.ccwu.cc
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /zh-cn/juzibaipiao?ed=2560
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #1067'
+  type: vless
+  server: dns.dressforida.monster
+  port: 443
+  uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.techradar.com
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
+    short-id: 174c6cf22e22
+- name: 'T.ME: @aristapnel #1068'
+  type: vless
+  server: 45.82.251.115
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  network: grpc
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 45.82.251.115
+  flow: ''
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 'T.ME: @aristapnel #1069'
+  type: vless
+  server: 51.158.206.97
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: fuck.rkn
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: 'T.ME: @aristapnel #1070'
   type: vless
   server: node1.boomvpn.ru

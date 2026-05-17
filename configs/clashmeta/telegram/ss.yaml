@@ -102,7 +102,7 @@ proxies:
   tcp-fast-open: true
 - name: 'ARISTA🔥 #4'
   type: ss
-  server: 155.212.225.150
+  server: 193.151.108.76
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
@@ -110,21 +110,13 @@ proxies:
   tcp-fast-open: true
 - name: 'ARISTA🔥 #5'
   type: ss
-  server: 36.224.143.36
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  tcp-fast-open: true
-- name: 'ARISTA🔥 #6'
-  type: ss
   server: 108.181.0.177
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: G5p6ww4o67HB
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #7'
+- name: 'ARISTA🔥 #6'
   type: ss
   server: 107.172.250.161
   port: 59556
@@ -132,7 +124,7 @@ proxies:
   password: QTmLViU4VEmuwbOxUw4IXd
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #8'
+- name: 'ARISTA🔥 #7'
   type: ss
   server: 109.176.229.55
   port: 8388
@@ -140,7 +132,7 @@ proxies:
   password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #9'
+- name: 'ARISTA🔥 #8'
   type: ss
   server: 104.192.227.162
   port: 443
@@ -148,7 +140,7 @@ proxies:
   password: 91LFVJhY6a7f8KeJPeuYln
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #10'
+- name: 'ARISTA🔥 #9'
   type: ss
   server: 37.143.129.98
   port: 990
@@ -156,9 +148,17 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #11'
+- name: 'ARISTA🔥 #10'
   type: ss
   server: 87.120.126.2
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  udp: true
+  tcp-fast-open: true
+- name: 'ARISTA🔥 #11'
+  type: ss
+  server: 155.212.225.150
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
@@ -198,10 +198,10 @@ proxies:
   tcp-fast-open: true
 - name: 'ARISTA🔥 #16'
   type: ss
-  server: 193.151.108.76
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  server: 66.94.125.178
+  port: 80
+  cipher: aes-256-gcm
+  password: 14CLBaFBqwqxBJy6
   udp: true
   tcp-fast-open: true
 proxy-groups:

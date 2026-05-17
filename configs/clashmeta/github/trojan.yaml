@@ -1980,31 +1980,16 @@ proxies:
       Host: dns.google.com
 - name: 'T.ME: @aristapnel #130'
   type: trojan
-  server: 15.237.55.229
+  server: 15.188.181.239
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 15.237.55.229
+  servername: 15.188.181.239
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #131'
-  type: trojan
-  server: 104.20.6.134
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.ignitelimit.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: 'T.ME: @aristapnel #132'
   type: trojan
   server: 125.227.86.46
   port: 443
@@ -2019,48 +2004,18 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-- name: 'T.ME: @aristapnel #133'
+- name: 'T.ME: @aristapnel #132'
   type: trojan
-  server: yespaintstudio.rav-kraski.ru
-  port: 50824
-  password: 7aXwJPnpAJ
+  server: 116.80.61.236
+  port: 443
+  password: BxceQaOe
   network: tcp
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: yespaintstudio.rav-kraski.ru
+  servername: t.me%2Fripaojiedian
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #134'
-  type: trojan
-  server: 170.168.102.234
-  port: 2083
-  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: xo.e0f.cx
-  client-fingerprint: chrome
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: xo.e0f.cx
-- name: 'T.ME: @aristapnel #135'
-  type: trojan
-  server: 91.184.250.116
-  port: 2083
-  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: xo.e0f.cx
-  client-fingerprint: chrome
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: xo.e0f.cx
-- name: 'T.ME: @aristapnel #136'
+- name: 'T.ME: @aristapnel #133'
   type: trojan
   server: 104.20.6.134
   port: 443
@@ -2077,7 +2032,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmloud.com
-- name: 'T.ME: @aristapnel #137'
+- name: 'T.ME: @aristapnel #134'
   type: trojan
   server: www.ignitelimit.com
   port: 443
@@ -2092,9 +2047,9 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-- name: 'T.ME: @aristapnel #138'
+- name: 'T.ME: @aristapnel #135'
   type: trojan
-  server: v1.dabache.top
+  server: 104.18.32.47
   port: 443
   password: humanity
   network: ws
@@ -2107,22 +2062,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #139'
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #140'
+- name: 'T.ME: @aristapnel #136'
   type: trojan
   server: sni.111000.dynv6.net
   port: 443
@@ -2139,7 +2079,7 @@ proxies:
     path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 'T.ME: @aristapnel #141'
+- name: 'T.ME: @aristapnel #137'
   type: trojan
   server: www.gossipglove.com
   port: 443
@@ -2154,7 +2094,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.gossipglove.com
-- name: 'T.ME: @aristapnel #142'
+- name: 'T.ME: @aristapnel #138'
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -2169,7 +2109,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: 'T.ME: @aristapnel #143'
+- name: 'T.ME: @aristapnel #139'
   type: trojan
   server: 172.67.180.92
   port: 443
@@ -2184,7 +2124,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #144'
+- name: 'T.ME: @aristapnel #140'
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -2199,7 +2139,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.gossipglove.com
-- name: 'T.ME: @aristapnel #145'
+- name: 'T.ME: @aristapnel #141'
   type: trojan
   server: 104.21.40.34
   port: 443
@@ -2360,10 +2300,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #139'
   - 'T.ME: @aristapnel #140'
   - 'T.ME: @aristapnel #141'
-  - 'T.ME: @aristapnel #142'
-  - 'T.ME: @aristapnel #143'
-  - 'T.ME: @aristapnel #144'
-  - 'T.ME: @aristapnel #145'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -2509,10 +2445,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #139'
   - 'T.ME: @aristapnel #140'
   - 'T.ME: @aristapnel #141'
-  - 'T.ME: @aristapnel #142'
-  - 'T.ME: @aristapnel #143'
-  - 'T.ME: @aristapnel #144'
-  - 'T.ME: @aristapnel #145'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150

@@ -78,6 +78,53 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
+  server: 162.159.36.20
+  port: 443
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sni.111000.dynv6.net
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /?proxyip=ip.111000.de5.net:443
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 'Trojan #2'
+  type: trojan
+  server: 37.46.19.79
+  port: 8443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #3'
+  type: trojan
+  server: 46.101.160.68
+  port: 2096
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #4'
+  type: trojan
   server: 3.74.67.75
   port: 22222
   password: telegram-id-privatevpns
@@ -89,7 +136,7 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 'Trojan #2'
+- name: 'Trojan #5'
   type: trojan
   server: 13.36.26.137
   port: 22222
@@ -102,21 +149,6 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 'Trojan #3'
-  type: trojan
-  server: snapp.ir
-  port: 2082
-  password: '%40qurbunet'
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: war.restaurantcenter.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@qurbunet
-    headers:
-      Host: war.restaurantcenter.ir
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -125,6 +157,8 @@ proxy-groups:
   - 'Trojan #1'
   - 'Trojan #2'
   - 'Trojan #3'
+  - 'Trojan #4'
+  - 'Trojan #5'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -132,6 +166,8 @@ proxy-groups:
   - 'Trojan #1'
   - 'Trojan #2'
   - 'Trojan #3'
+  - 'Trojan #4'
+  - 'Trojan #5'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
