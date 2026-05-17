@@ -78,26 +78,26 @@ sniffer:
 proxies:
 - name: 'ARISTA🔥 #1'
   type: ss
-  server: 193.151.108.76
-  port: 8388
+  server: 79.127.200.169
+  port: 990
   cipher: chacha20-ietf-poly1305
-  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #2'
   type: ss
-  server: 150.241.72.79
-  port: 8388
+  server: 82.38.31.217
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #3'
   type: ss
-  server: 194.87.39.215
-  port: 8388
+  server: 82.38.31.35
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #4'
@@ -174,10 +174,10 @@ proxies:
   tcp-fast-open: true
 - name: 'ARISTA🔥 #13'
   type: ss
-  server: 79.127.200.169
-  port: 990
+  server: 107.172.219.230
+  port: 2096
   cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  password: 4dc8eeda-fdfb-4660-8ceb-3e872956cb94
   udp: true
   tcp-fast-open: true
 - name: 'ARISTA🔥 #14'
@@ -204,22 +204,6 @@ proxies:
   password: JVrsLLN1tkN8oXZO
   udp: true
   tcp-fast-open: true
-- name: 'ARISTA🔥 #17'
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  tcp-fast-open: true
-- name: 'ARISTA🔥 #18'
-  type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  tcp-fast-open: true
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -241,8 +225,6 @@ proxy-groups:
   - 'ARISTA🔥 #14'
   - 'ARISTA🔥 #15'
   - 'ARISTA🔥 #16'
-  - 'ARISTA🔥 #17'
-  - 'ARISTA🔥 #18'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -263,8 +245,6 @@ proxy-groups:
   - 'ARISTA🔥 #14'
   - 'ARISTA🔥 #15'
   - 'ARISTA🔥 #16'
-  - 'ARISTA🔥 #17'
-  - 'ARISTA🔥 #18'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
