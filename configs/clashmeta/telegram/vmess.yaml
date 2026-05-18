@@ -78,19 +78,41 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: s82.faststrong.sbs
-  port: 35768
-  uuid: dd308322-1c16-4309-b840-e5db3df54f1a
+  server: cip.salimore.com
+  port: 443
+  uuid: 0055d4c8-ede0-4caf-8597-d2bd73c81576
   alterId: 0
   cipher: auto
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: s82.faststrong.sbs
-  client-fingerprint: ''
+  servername: cip.salimore.com
+  client-fingerprint: safari
+  ws-opts:
+    path: /ws/
+    headers:
+      Host: cip.salimore.com
 - name: 'ARISTA #2'
+  type: vmess
+  server: cip.salimore.com
+  port: 443
+  uuid: ff11a881-1970-4548-aabe-55a1fb837aad
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cip.salimore.com
+  client-fingerprint: safari
+  ws-opts:
+    path: /ws/
+    headers:
+      Host: cip.salimore.com
+- name: 'ARISTA #3'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -104,7 +126,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #3'
+- name: 'ARISTA #4'
   type: vmess
   server: cip.salimore.com
   port: 443
@@ -122,43 +144,7 @@ proxies:
     path: /ws/
     headers:
       Host: cip.salimore.com
-- name: 'ARISTA #4'
-  type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: ff11a881-1970-4548-aabe-55a1fb837aad
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cip.salimore.com
-  client-fingerprint: ''
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
 - name: 'ARISTA #5'
-  type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: 0055d4c8-ede0-4caf-8597-d2bd73c81576
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cip.salimore.com
-  client-fingerprint: ''
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
-- name: 'ARISTA #6'
   type: vmess
   server: cip.salimore.com
   port: 443
@@ -176,7 +162,99 @@ proxies:
     path: /ws/
     headers:
       Host: cip.salimore.com
+- name: 'ARISTA #6'
+  type: vmess
+  server: 216.238.86.158
+  port: 34460
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 216.238.86.158
+  client-fingerprint: chrome
 - name: 'ARISTA #7'
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: null
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 23.162.200.198
+  client-fingerprint: null
+- name: 'ARISTA #8'
+  type: vmess
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.236.38.44
+  client-fingerprint: ''
+- name: 'ARISTA #9'
+  type: vmess
+  server: s82.faststrong.sbs
+  port: 35768
+  uuid: dd308322-1c16-4309-b840-e5db3df54f1a
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: s82.faststrong.sbs
+  client-fingerprint: ''
+- name: 'ARISTA #10'
+  type: vmess
+  server: cip.salimore.com
+  port: 443
+  uuid: ff11a881-1970-4548-aabe-55a1fb837aad
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cip.salimore.com
+  client-fingerprint: ''
+  ws-opts:
+    path: /ws/
+    headers:
+      Host: cip.salimore.com
+- name: 'ARISTA #11'
+  type: vmess
+  server: cip.salimore.com
+  port: 443
+  uuid: 0055d4c8-ede0-4caf-8597-d2bd73c81576
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cip.salimore.com
+  client-fingerprint: ''
+  ws-opts:
+    path: /ws/
+    headers:
+      Host: cip.salimore.com
+- name: 'ARISTA #12'
   type: vmess
   server: cip.salimore.com
   port: 443
@@ -194,11 +272,11 @@ proxies:
     path: /ws/
     headers:
       Host: cip.salimore.com
-- name: 'ARISTA #8'
+- name: 'ARISTA #13'
   type: vmess
-  server: 172.232.103.186
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: freegonet.wirobike.ir
+  port: 2626
+  uuid: 96969e08-7dc2-4b82-a0d8-8637d916127e
   alterId: 0
   cipher: auto
   network: tcp
@@ -206,49 +284,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 172.232.103.186
-  client-fingerprint: chrome
-- name: 'ARISTA #9'
+  servername: freegonet.wirobike.ir
+  client-fingerprint: ''
+- name: 'ARISTA #14'
   type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: 0055d4c8-ede0-4caf-8597-d2bd73c81576
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cip.salimore.com
-  client-fingerprint: safari
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
-- name: 'ARISTA #10'
-  type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: ff11a881-1970-4548-aabe-55a1fb837aad
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cip.salimore.com
-  client-fingerprint: safari
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
-- name: 'ARISTA #11'
-  type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  server: freegonet.wirobike.ir
+  port: 2626
+  uuid: acd16661-5a46-4aa2-8388-bc4f5a33c47e
   alterId: 0
   cipher: auto
   network: tcp
@@ -256,7 +298,21 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.236.38.44
+  servername: freegonet.wirobike.ir
+  client-fingerprint: ''
+- name: 'ARISTA #15'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22105
+  uuid: fdd2f16b-a263-4de9-862d-872a19e6b19d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
@@ -274,6 +330,10 @@ proxy-groups:
   - 'ARISTA #9'
   - 'ARISTA #10'
   - 'ARISTA #11'
+  - 'ARISTA #12'
+  - 'ARISTA #13'
+  - 'ARISTA #14'
+  - 'ARISTA #15'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -289,6 +349,10 @@ proxy-groups:
   - 'ARISTA #9'
   - 'ARISTA #10'
   - 'ARISTA #11'
+  - 'ARISTA #12'
+  - 'ARISTA #13'
+  - 'ARISTA #14'
+  - 'ARISTA #15'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
