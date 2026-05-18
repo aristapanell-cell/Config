@@ -78,63 +78,51 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: 9d2bb6b0-9d5f-4568-a97a-6c747ca096f4
+  server: freegonet.wirobike.ir
+  port: 2626
+  uuid: 1e6225de-583c-44a0-a3ca-12572dd5d97a
   alterId: 0
   cipher: auto
-  network: ws
-  tls: true
+  network: tcp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: cip.salimore.com
+  servername: freegonet.wirobike.ir
   client-fingerprint: ''
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
 - name: 'ARISTA #2'
   type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: ff11a881-1970-4548-aabe-55a1fb837aad
+  server: freegonet.wirobike.ir
+  port: 2626
+  uuid: d52f9896-675e-44db-a1dd-49de33cc8a2b
   alterId: 0
   cipher: auto
-  network: ws
-  tls: true
+  network: tcp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: cip.salimore.com
+  servername: freegonet.wirobike.ir
   client-fingerprint: ''
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
 - name: 'ARISTA #3'
   type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: 0055d4c8-ede0-4caf-8597-d2bd73c81576
+  server: 95.38.164.61
+  port: 2626
+  uuid: 24036708-93b1-4c07-b35d-03f9afe3b63b
   alterId: 0
   cipher: auto
-  network: ws
-  tls: true
+  network: tcp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: cip.salimore.com
+  servername: 95.38.164.61
   client-fingerprint: ''
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
 - name: 'ARISTA #4'
   type: vmess
   server: cip.salimore.com
   port: 443
-  uuid: 631bddac-307b-49dc-8ff0-cff052a64f50
+  uuid: 9d2bb6b0-9d5f-4568-a97a-6c747ca096f4
   alterId: 0
   cipher: auto
   network: ws
@@ -152,7 +140,7 @@ proxies:
   type: vmess
   server: cip.salimore.com
   port: 443
-  uuid: 877f0892-b5c9-4035-aceb-f36883e13abc
+  uuid: 631bddac-307b-49dc-8ff0-cff052a64f50
   alterId: 0
   cipher: auto
   network: ws
@@ -170,20 +158,6 @@ proxies:
   type: vmess
   server: 95.38.164.61
   port: 2626
-  uuid: 24036708-93b1-4c07-b35d-03f9afe3b63b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 95.38.164.61
-  client-fingerprint: ''
-- name: 'ARISTA #7'
-  type: vmess
-  server: 95.38.164.61
-  port: 2626
   uuid: 81eb094b-e156-4517-a7d9-36df5f148abe
   alterId: 0
   cipher: auto
@@ -194,70 +168,6 @@ proxies:
   tcp-fast-open: true
   servername: 95.38.164.61
   client-fingerprint: chrome
-- name: 'ARISTA #8'
-  type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: 0055d4c8-ede0-4caf-8597-d2bd73c81576
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cip.salimore.com
-  client-fingerprint: safari
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
-- name: 'ARISTA #9'
-  type: vmess
-  server: cip.salimore.com
-  port: 443
-  uuid: ff11a881-1970-4548-aabe-55a1fb837aad
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cip.salimore.com
-  client-fingerprint: safari
-  ws-opts:
-    path: /ws/
-    headers:
-      Host: cip.salimore.com
-- name: 'ARISTA #10'
-  type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.236.38.44
-  client-fingerprint: ''
-- name: 'ARISTA #11'
-  type: vmess
-  server: ak.reata.ir
-  port: 16482
-  uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ak.reata.ir
-  client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -269,11 +179,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'ARISTA #9'
-  - 'ARISTA #10'
-  - 'ARISTA #11'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -284,11 +189,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'ARISTA #9'
-  - 'ARISTA #10'
-  - 'ARISTA #11'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
