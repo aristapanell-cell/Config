@@ -733,6 +733,134 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #74'
+  type: hysteria2
+  server: 38a8754f-t6pb40-tmynyz-1s3mx.hk2.hyhuawei.com
+  port: 443
+  password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+  sni: 38a8754f-t6pb40-tmynyz-1s3mx.hk2.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #76'
+  type: hysteria2
+  server: 206.71.158.23
+  port: 45000
+  password: Telegram--%3E@Ln2Ray
+  sni: gavazn.55994421.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #77'
+  type: hysteria2
+  server: 195.133.53.33
+  port: 443
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  sni: s516.okgfw.top
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #78'
+  type: hysteria2
+  server: vpn-us-005.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-005.fastervpn.world
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #79'
+  type: hysteria2
+  server: 185.228.139.247
+  port: 4433
+  password: 2545ab46-6306-4f2b-badd-5531f384d55f
+  sni: de2.xiaoliyu.cyou
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #80'
+  type: hysteria2
+  server: 68c6756a-t57ls0-t7fl9b-1q16i.us.hyhuawei.com
+  port: 443
+  password: 94614d84-9986-11ee-be7f-f23c9164ca5d
+  sni: 68c6756a-t57ls0-t7fl9b-1q16i.us.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #81'
+  type: hysteria2
+  server: hk3.dexlos.com
+  port: 5343
+  password: E35FD247-3464-493A-AA34-AE0972EDFA8C
+  sni: hk3.dexlos.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #82'
+  type: hysteria2
+  server: 206.71.158.23
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: gavazn.55994421.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Telegram--%3E%40Ln2Ray
+- name: 'T.ME: @aristapnel #83'
+  type: hysteria2
+  server: 2f605a10-t6ngg0-t7bo2t-1psmw.us.hyhuawei.com
+  port: 443
+  password: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+  sni: 2f605a10-t6ngg0-t7bo2t-1psmw.us.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #84'
+  type: hysteria2
+  server: 13.233.127.26
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #85'
+  type: hysteria2
+  server: 324d9cff-t6ngg0-t9lc3n-z93q.us.hyhuawei.com
+  port: 443
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  sni: 324d9cff-t6ngg0-t9lc3n-z93q.us.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #86'
+  type: hysteria2
+  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  port: 1743
+  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #87'
+  type: hysteria2
+  server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  port: 1743
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #88'
+  type: hysteria2
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  port: 1743
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -805,6 +933,20 @@ proxy-groups:
   - 'T.ME: @aristapnel #69'
   - 'T.ME: @aristapnel #70'
   - 'T.ME: @aristapnel #72'
+  - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #76'
+  - 'T.ME: @aristapnel #77'
+  - 'T.ME: @aristapnel #78'
+  - 'T.ME: @aristapnel #79'
+  - 'T.ME: @aristapnel #80'
+  - 'T.ME: @aristapnel #81'
+  - 'T.ME: @aristapnel #82'
+  - 'T.ME: @aristapnel #83'
+  - 'T.ME: @aristapnel #84'
+  - 'T.ME: @aristapnel #85'
+  - 'T.ME: @aristapnel #86'
+  - 'T.ME: @aristapnel #87'
+  - 'T.ME: @aristapnel #88'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -876,6 +1018,20 @@ proxy-groups:
   - 'T.ME: @aristapnel #69'
   - 'T.ME: @aristapnel #70'
   - 'T.ME: @aristapnel #72'
+  - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #76'
+  - 'T.ME: @aristapnel #77'
+  - 'T.ME: @aristapnel #78'
+  - 'T.ME: @aristapnel #79'
+  - 'T.ME: @aristapnel #80'
+  - 'T.ME: @aristapnel #81'
+  - 'T.ME: @aristapnel #82'
+  - 'T.ME: @aristapnel #83'
+  - 'T.ME: @aristapnel #84'
+  - 'T.ME: @aristapnel #85'
+  - 'T.ME: @aristapnel #86'
+  - 'T.ME: @aristapnel #87'
+  - 'T.ME: @aristapnel #88'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
