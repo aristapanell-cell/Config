@@ -78,8 +78,23 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 188.114.96.3
+  server: 185.126.12.9
   port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #2'
+  type: trojan
+  server: 127.0.0.1
+  port: 40443
   password: humanity
   network: ws
   udp: true
@@ -91,7 +106,22 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: 'Trojan #2'
+- name: 'Trojan #3'
+  type: trojan
+  server: 127.0.0.1
+  port: 40443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.creationlong.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.creationlong.org
+- name: 'Trojan #4'
   type: trojan
   server: 95.163.240.24
   port: 8443
@@ -106,7 +136,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #3'
+- name: 'Trojan #5'
   type: trojan
   server: 104.17.101.139
   port: 443
@@ -123,7 +153,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #4'
+- name: 'Trojan #6'
   type: trojan
   server: 77.221.156.92
   port: 8443
@@ -138,24 +168,9 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #5'
+- name: 'Trojan #7'
   type: trojan
-  server: 72.56.103.129
-  port: 2053
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #6'
-  type: trojan
-  server: 212.34.151.109
+  server: 195.133.20.153
   port: 8443
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
@@ -168,36 +183,21 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #7'
-  type: trojan
-  server: 127.0.0.1
-  port: 40443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.creationlong.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
 - name: 'Trojan #8'
   type: trojan
-  server: 127.0.0.1
-  port: 40443
-  password: humanity
+  server: 139.64.235.253
+  port: 443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.creationlong.org
+  servername: Koma-YT.PAGeS.Dev
   client-fingerprint: chrome
   ws-opts:
-    path: /assignment
+    path: /trTelegram🇨🇳 @WangCai2
     headers:
-      Host: www.creationlong.org
+      Host: Koma-YT.PAGeS.Dev
 - name: 'Trojan #9'
   type: trojan
   server: 127.0.0.1
@@ -213,38 +213,6 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: 'Trojan #10'
-  type: trojan
-  server: 127.0.0.1
-  port: 40443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.multiplydose.com
-- name: 'Trojan #11'
-  type: trojan
-  server: sourceforge.net
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.calmloud.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmloud.com
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -259,8 +227,6 @@ proxy-groups:
   - 'Trojan #7'
   - 'Trojan #8'
   - 'Trojan #9'
-  - 'Trojan #10'
-  - 'Trojan #11'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -274,8 +240,6 @@ proxy-groups:
   - 'Trojan #7'
   - 'Trojan #8'
   - 'Trojan #9'
-  - 'Trojan #10'
-  - 'Trojan #11'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
