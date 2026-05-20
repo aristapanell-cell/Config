@@ -1853,22 +1853,49 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #123'
   type: trojan
-  server: 104.18.13.149
-  port: 443
-  password: humanity
-  network: ws
+  server: 54.46.53.9
+  port: 2702
+  password: BxceQaOe
+  network: tcp
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.calmloud.com
+  servername: t.me/ripaojiedian
   client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmloud.com
 - name: 'T.ME: @aristapnel #124'
+  type: trojan
+  server: 52.195.173.99
+  port: 44079
+  password: BxceQaOe
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: t.me%2Fripaojiedian
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #125'
+  type: trojan
+  server: 52.47.138.221
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 52.47.138.221
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #126'
+  type: trojan
+  server: 35.156.35.32
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 35.156.35.32
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #127'
   type: trojan
   server: yespaintstudio.rav-kraski.ru
   port: 50824
@@ -1879,9 +1906,20 @@ proxies:
   tcp-fast-open: true
   servername: yespaintstudio.rav-kraski.ru
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #125'
+- name: 'T.ME: @aristapnel #128'
   type: trojan
-  server: 104.20.6.134
+  server: 116.80.80.121
+  port: 443
+  password: BxceQaOe
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: t.me/ripaojiedian
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #129'
+  type: trojan
+  server: 8.6.112.6
   port: 443
   password: humanity
   network: ws
@@ -1896,9 +1934,9 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmloud.com
-- name: 'T.ME: @aristapnel #126'
+- name: 'T.ME: @aristapnel #130'
   type: trojan
-  server: 104.20.6.134
+  server: 104.19.229.21
   port: 443
   password: humanity
   network: ws
@@ -1911,7 +1949,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-- name: 'T.ME: @aristapnel #127'
+- name: 'T.ME: @aristapnel #131'
   type: trojan
   server: v1.dabache.top
   port: 443
@@ -1926,7 +1964,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #128'
+- name: 'T.ME: @aristapnel #132'
   type: trojan
   server: 104.18.32.47
   port: 443
@@ -1941,59 +1979,9 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #129'
-  type: trojan
-  server: hl-freedom-1.undef.network
-  port: 443
-  password: JaFKnqNcvnBT63t3rquidGsln
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: HL-FREEDOM-1.UNDEF.NETWORK
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #130'
-  type: trojan
-  server: 91.210.108.201
-  port: 443
-  password: JaFKnqNcvnBT63t3rquidGsln
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: HL-FREEDOM-1.UNDEF.NETWORK
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #131'
-  type: trojan
-  server: 216.234.140.55
-  port: 47574
-  password: 3PfyPiLUGm
-  network: grpc
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 'T.ME: @aristapnel #132'
-  type: trojan
-  server: www.multiplydose.com
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
 - name: 'T.ME: @aristapnel #133'
   type: trojan
-  server: www.multiplydose.com
+  server: v1.dabache.top
   port: 443
   password: humanity
   network: ws
@@ -2008,22 +1996,22 @@ proxies:
       Host: www.multiplydose.com
 - name: 'T.ME: @aristapnel #134'
   type: trojan
-  server: www.ignitelimit.com
+  server: 172.67.180.92
   port: 443
   password: humanity
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.ignitelimit.com
+  servername: www.multiplydose.com
   client-fingerprint: chrome
   ws-opts:
     path: /assignment
     headers:
-      Host: www.ignitelimit.com
+      Host: www.multiplydose.com
 - name: 'T.ME: @aristapnel #135'
   type: trojan
-  server: www.multiplydose.com
+  server: 172.64.152.23
   port: 443
   password: humanity
   network: ws
@@ -2038,6 +2026,101 @@ proxies:
       Host: www.multiplydose.com
 - name: 'T.ME: @aristapnel #136'
   type: trojan
+  server: hl-freedom-1.undef.network
+  port: 443
+  password: JaFKnqNcvnBT63t3rquidGsln
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: HL-FREEDOM-1.UNDEF.NETWORK
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #137'
+  type: trojan
+  server: 91.210.108.201
+  port: 443
+  password: JaFKnqNcvnBT63t3rquidGsln
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: HL-FREEDOM-1.UNDEF.NETWORK
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #138'
+  type: trojan
+  server: 216.234.140.55
+  port: 47574
+  password: 3PfyPiLUGm
+  network: grpc
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 'T.ME: @aristapnel #139'
+  type: trojan
+  server: www.multiplydose.com
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'T.ME: @aristapnel #140'
+  type: trojan
+  server: www.multiplydose.com
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'T.ME: @aristapnel #141'
+  type: trojan
+  server: www.ignitelimit.com
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.ignitelimit.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: 'T.ME: @aristapnel #142'
+  type: trojan
+  server: www.multiplydose.com
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'T.ME: @aristapnel #143'
+  type: trojan
   server: 188.114.98.0
   port: 443
   password: humanity
@@ -2051,7 +2134,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: 'T.ME: @aristapnel #137'
+- name: 'T.ME: @aristapnel #144'
   type: trojan
   server: 172.67.180.92
   port: 443
@@ -2066,7 +2149,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #138'
+- name: 'T.ME: @aristapnel #145'
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -2081,7 +2164,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.gossipglove.com
-- name: 'T.ME: @aristapnel #139'
+- name: 'T.ME: @aristapnel #146'
   type: trojan
   server: 104.21.40.34
   port: 443
@@ -2240,6 +2323,13 @@ proxy-groups:
   - 'T.ME: @aristapnel #137'
   - 'T.ME: @aristapnel #138'
   - 'T.ME: @aristapnel #139'
+  - 'T.ME: @aristapnel #140'
+  - 'T.ME: @aristapnel #141'
+  - 'T.ME: @aristapnel #142'
+  - 'T.ME: @aristapnel #143'
+  - 'T.ME: @aristapnel #144'
+  - 'T.ME: @aristapnel #145'
+  - 'T.ME: @aristapnel #146'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -2383,6 +2473,13 @@ proxy-groups:
   - 'T.ME: @aristapnel #137'
   - 'T.ME: @aristapnel #138'
   - 'T.ME: @aristapnel #139'
+  - 'T.ME: @aristapnel #140'
+  - 'T.ME: @aristapnel #141'
+  - 'T.ME: @aristapnel #142'
+  - 'T.ME: @aristapnel #143'
+  - 'T.ME: @aristapnel #144'
+  - 'T.ME: @aristapnel #145'
+  - 'T.ME: @aristapnel #146'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
