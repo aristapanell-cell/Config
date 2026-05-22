@@ -715,55 +715,37 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #70'
   type: hysteria2
-  server: 4abef786-t6pb40-tcw58g-1p0be.hk2.hyhuawei.com
+  server: 2f605a10-t6ngg0-t7bo2t-1psmw.us.hyhuawei.com
   port: 443
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  sni: 4abef786-t6pb40-tcw58g-1p0be.hk2.hyhuawei.com
+  password: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+  sni: 2f605a10-t6ngg0-t7bo2t-1psmw.us.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #71'
   type: hysteria2
-  server: hk5.dexlos.com
-  port: 9610
+  server: hk4.dexlos.com
+  port: 7484
   password: E35FD247-3464-493A-AA34-AE0972EDFA8C
-  sni: hk5.dexlos.com
+  sni: hk4.dexlos.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #72'
   type: hysteria2
-  server: 206.71.158.37
-  port: 36600
-  password: Yet-Another-Public-Config-1
-  sni: YAPC-1.afshin.ir
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #73'
-  type: hysteria2
-  server: e11104bd-t53wg0-tkn6t8-1i3g8.us.hyhuawei.com
-  port: 443
-  password: 437cef58-f10b-11ef-8eaf-f23c9164ca5d
-  sni: e11104bd-t53wg0-tkn6t8-1i3g8.us.hyhuawei.com
+  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+  port: 1743
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #74'
   type: hysteria2
-  server: 00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com
+  server: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
   port: 443
-  password: 0114339c-488d-11ee-8792-f23c9164ca5d
-  sni: 00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #75'
-  type: hysteria2
-  server: 6369805c-t53wg0-t7mt0p-1sllg.hk1.hyhuawei.com
-  port: 443
-  password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-  sni: 6369805c-t53wg0-t7mt0p-1sllg.hk1.hyhuawei.com
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  sni: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -840,9 +822,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #70'
   - 'T.ME: @aristapnel #71'
   - 'T.ME: @aristapnel #72'
-  - 'T.ME: @aristapnel #73'
   - 'T.ME: @aristapnel #74'
-  - 'T.ME: @aristapnel #75'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -915,9 +895,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #70'
   - 'T.ME: @aristapnel #71'
   - 'T.ME: @aristapnel #72'
-  - 'T.ME: @aristapnel #73'
   - 'T.ME: @aristapnel #74'
-  - 'T.ME: @aristapnel #75'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
