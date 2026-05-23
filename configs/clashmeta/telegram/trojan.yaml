@@ -78,63 +78,22 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 78.159.131.12
-  port: 28259
-  password: MeaDiUmPlkWbZJ2BON8tz
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 🔒
-  client-fingerprint: chrome
-- name: 'Trojan #2'
-  type: trojan
-  server: 162.159.36.20
+  server: 104.20.5.134
   port: 443
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: mSzFVhUczD
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: sni.111000.dynv6.net
+  servername: abest.api-tel.xyz
   client-fingerprint: chrome
   alpn:
   - http/1.1
   ws-opts:
-    path: /?proxyip=ip.111000.de5.net:443
+    path: /
     headers:
-      Host: sni.111000.dynv6.net
-- name: 'Trojan #3'
-  type: trojan
-  server: 77.221.156.92
-  port: 8443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #4'
-  type: trojan
-  server: 188.121.121.183
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.creationlong.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
-- name: 'Trojan #5'
+      Host: abest.api-tel.xyz
+- name: 'Trojan #2'
   type: trojan
   server: 104.19.229.21
   port: 443
@@ -149,6 +108,51 @@ proxies:
     path: /tr
     headers:
       Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #3'
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #4'
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /tr
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #5'
+  type: trojan
+  server: 85.198.20.177
+  port: 40443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.ignitelimit.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
 - name: 'Trojan #6'
   type: trojan
   server: 13.37.60.29
@@ -177,19 +181,19 @@ proxies:
   - http/1.1
 - name: 'Trojan #8'
   type: trojan
-  server: 2.144.2.251
-  port: 443
-  password: humanity
+  server: 217.60.248.94
+  port: 8443
+  password: '162534'
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.creationlong.org
+  servername: cchh2.pages.dev
   client-fingerprint: chrome
   ws-opts:
-    path: /assignment
+    path: /?ed=2560
     headers:
-      Host: www.creationlong.org
+      Host: cchh2.pages.dev
 - name: 'Trojan #9'
   type: trojan
   server: 104.19.229.21
@@ -207,19 +211,19 @@ proxies:
       Host: www.multiplydose.com
 - name: 'Trojan #10'
   type: trojan
-  server: 104.19.229.21
+  server: 188.121.121.183
   port: 443
   password: humanity
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.multiplydose.com
+  servername: www.creationlong.org
   client-fingerprint: chrome
   ws-opts:
     path: /assignment
     headers:
-      Host: www.multiplydose.com
+      Host: www.creationlong.org
 proxy-groups:
 - name: Proxy Select
   type: select
