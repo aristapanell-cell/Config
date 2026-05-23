@@ -78,9 +78,9 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22408
+  uuid: cc8beb1e-94ed-42e4-9985-45c80d2c59a9
   alterId: 0
   cipher: auto
   network: tcp
@@ -88,11 +88,71 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 38.110.1.246
-  client-fingerprint: chrome
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
 - name: 'ARISTA #2'
   type: vmess
-  server: 185.79.98.237
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22408
+  uuid: cc8beb1e-94ed-42e4-9985-45c80d2c59a9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #3'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22408
+  uuid: 6ffea2a0-1210-45cd-8276-900be7c7578e
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #4'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22416
+  uuid: 1c405d07-d6c3-42b5-9500-2812a963c1c2
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #5'
+  type: vmess
+  server: cip.salimore.com
+  port: 443
+  uuid: 30c2a5e5-e7d9-48fd-98c1-0a1562cacdc7
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cip.salimore.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws/
+    headers:
+      Host: cip.salimore.com
+- name: 'ARISTA #6'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22411
   uuid: 8845ab1f-bb7c-458a-b32f-9a6f2e5613bb
   alterId: 0
@@ -102,65 +162,23 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.79.98.237
-  client-fingerprint: ''
-- name: 'ARISTA #3'
-  type: vmess
-  server: kevin-vpn.zenprime.ir
-  port: 443
-  uuid: c233827e-22c1-4373-a8b7-840f40bde7a7
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: kevin-vpn.zenprime.ir
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: 185.79.98.237
-  port: 22405
-  uuid: af6198ca-ebdf-45a2-9d7d-e2e1c9f90544
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.79.98.237
-  client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: 185.79.98.237
-  port: 22157
-  uuid: 27c7f7db-b35e-4bde-b3d3-14f5a2d778ab
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.79.98.237
-  client-fingerprint: ''
-- name: 'ARISTA #6'
-  type: vmess
-  server: 217.218.52.1
-  port: 10410
-  uuid: f93f134f-7adb-48c3-bcd1-2532edb0b478
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 217.218.52.1
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 - name: 'ARISTA #7'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22413
+  uuid: cbadc003-f1e7-4530-9ae1-7bcea0d511f1
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #8'
   type: vmess
   server: 81.12.33.180
   port: 2024
@@ -174,7 +192,7 @@ proxies:
   tcp-fast-open: true
   servername: parsabr.com
   client-fingerprint: ''
-- name: 'ARISTA #8'
+- name: 'ARISTA #9'
   type: vmess
   server: 185.231.181.62
   port: 443
@@ -187,20 +205,6 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 185.231.181.62
-  client-fingerprint: ''
-- name: 'ARISTA #9'
-  type: vmess
-  server: 185.79.98.237
-  port: 22413
-  uuid: cbadc003-f1e7-4530-9ae1-7bcea0d511f1
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.79.98.237
   client-fingerprint: ''
 - name: 'ARISTA #10'
   type: vmess
@@ -260,9 +264,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #14'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22408
-  uuid: 6ffea2a0-1210-45cd-8276-900be7c7578e
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
   network: tcp
@@ -270,13 +274,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
+  servername: 38.110.1.246
+  client-fingerprint: chrome
 - name: 'ARISTA #15'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22411
-  uuid: 8845ab1f-bb7c-458a-b32f-9a6f2e5613bb
+  server: kevin-vpn.zenprime.ir
+  port: 443
+  uuid: c233827e-22c1-4373-a8b7-840f40bde7a7
   alterId: 0
   cipher: auto
   network: tcp
@@ -284,11 +288,53 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: kevin-vpn.zenprime.ir
   client-fingerprint: ''
 - name: 'ARISTA #16'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  server: 185.79.98.237
+  port: 22405
+  uuid: af6198ca-ebdf-45a2-9d7d-e2e1c9f90544
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.79.98.237
+  client-fingerprint: ''
+- name: 'ARISTA #17'
+  type: vmess
+  server: 185.79.98.237
+  port: 22157
+  uuid: 27c7f7db-b35e-4bde-b3d3-14f5a2d778ab
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.79.98.237
+  client-fingerprint: ''
+- name: 'ARISTA #18'
+  type: vmess
+  server: 217.218.52.1
+  port: 10410
+  uuid: f93f134f-7adb-48c3-bcd1-2532edb0b478
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 217.218.52.1
+  client-fingerprint: ''
+- name: 'ARISTA #19'
+  type: vmess
+  server: 185.79.98.237
   port: 22413
   uuid: cbadc003-f1e7-4530-9ae1-7bcea0d511f1
   alterId: 0
@@ -298,13 +344,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 185.79.98.237
   client-fingerprint: ''
-- name: 'ARISTA #17'
+- name: 'ARISTA #20'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22408
-  uuid: cc8beb1e-94ed-42e4-9985-45c80d2c59a9
+  server: 185.79.98.237
+  port: 22411
+  uuid: 1cf4847e-9782-4b18-b64a-4e10a65622b9
   alterId: 0
   cipher: auto
   network: tcp
@@ -312,13 +358,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 185.79.98.237
   client-fingerprint: ''
-- name: 'ARISTA #18'
+- name: 'ARISTA #21'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22408
-  uuid: cc8beb1e-94ed-42e4-9985-45c80d2c59a9
+  port: 22416
+  uuid: 8b603a29-b6f4-40ba-9080-4a147ed43fb7
   alterId: 0
   cipher: auto
   network: tcp
@@ -351,6 +397,9 @@ proxy-groups:
   - 'ARISTA #16'
   - 'ARISTA #17'
   - 'ARISTA #18'
+  - 'ARISTA #19'
+  - 'ARISTA #20'
+  - 'ARISTA #21'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -373,6 +422,9 @@ proxy-groups:
   - 'ARISTA #16'
   - 'ARISTA #17'
   - 'ARISTA #18'
+  - 'ARISTA #19'
+  - 'ARISTA #20'
+  - 'ARISTA #21'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
