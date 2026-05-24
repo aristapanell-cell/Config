@@ -78,9 +78,9 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: 185.79.98.237
-  port: 22450
-  uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22411
+  uuid: 8845ab1f-bb7c-458a-b32f-9a6f2e5613bb
   alterId: 0
   cipher: auto
   network: tcp
@@ -88,13 +88,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.79.98.237
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 - name: 'ARISTA #2'
   type: vmess
-  server: 193.151.131.118
-  port: 22408
-  uuid: 6ffea2a0-1210-45cd-8276-900be7c7578e
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22413
+  uuid: cbadc003-f1e7-4530-9ae1-7bcea0d511f1
   alterId: 0
   cipher: auto
   network: tcp
@@ -102,13 +102,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 193.151.131.118
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 - name: 'ARISTA #3'
   type: vmess
-  server: 193.151.131.118
-  port: 22401
-  uuid: 903a1676-a232-491a-bfd8-9e34d96c2c03
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -116,51 +116,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 193.151.131.118
+  servername: 185.236.38.44
   client-fingerprint: ''
 - name: 'ARISTA #4'
-  type: vmess
-  server: 193.151.131.118
-  port: 22156
-  uuid: e0d72f4b-f759-4bed-addf-3a34a36ba983
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 193.151.131.118
-  client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: 193.151.131.118
-  port: 22450
-  uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 193.151.131.118
-  client-fingerprint: ''
-- name: 'ARISTA #6'
-  type: vmess
-  server: 193.151.131.118
-  port: 22416
-  uuid: f291b02e-810c-4ac5-afc1-3dab09eaf2a5
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 193.151.131.118
-  client-fingerprint: ''
-- name: 'ARISTA #7'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22901
@@ -174,11 +132,11 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #8'
+- name: 'ARISTA #5'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22411
-  uuid: 8845ab1f-bb7c-458a-b32f-9a6f2e5613bb
+  server: 193.151.131.118
+  port: 22408
+  uuid: 6ffea2a0-1210-45cd-8276-900be7c7578e
   alterId: 0
   cipher: auto
   network: tcp
@@ -186,13 +144,55 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 193.151.131.118
+  client-fingerprint: ''
+- name: 'ARISTA #6'
+  type: vmess
+  server: 193.151.131.118
+  port: 22401
+  uuid: 903a1676-a232-491a-bfd8-9e34d96c2c03
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 193.151.131.118
+  client-fingerprint: ''
+- name: 'ARISTA #7'
+  type: vmess
+  server: 193.151.131.118
+  port: 22156
+  uuid: e0d72f4b-f759-4bed-addf-3a34a36ba983
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 193.151.131.118
+  client-fingerprint: ''
+- name: 'ARISTA #8'
+  type: vmess
+  server: 193.151.131.118
+  port: 22450
+  uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 193.151.131.118
   client-fingerprint: ''
 - name: 'ARISTA #9'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22413
-  uuid: cbadc003-f1e7-4530-9ae1-7bcea0d511f1
+  server: 193.151.131.118
+  port: 22416
+  uuid: f291b02e-810c-4ac5-afc1-3dab09eaf2a5
   alterId: 0
   cipher: auto
   network: tcp
@@ -200,7 +200,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 193.151.131.118
   client-fingerprint: ''
 - name: 'ARISTA #10'
   type: vmess
