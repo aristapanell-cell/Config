@@ -120,9 +120,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
-  server: 27.122.57.43
-  port: 11638
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+  server: dn.torontomovie.com
+  port: 8080
+  uuid: 001ed66a-c019-486d-8110-0765cbf0c31d
   alterId: 0
   cipher: auto
   network: tcp
@@ -130,9 +130,37 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 27.122.57.43
-  client-fingerprint: chrome
+  servername: dn.torontomovie.com
+  client-fingerprint: ''
 - name: 'ARISTA #5'
+  type: vmess
+  server: 193.151.131.118
+  port: 22911
+  uuid: 638dea38-eb02-4fac-99aa-f83453606467
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 193.151.131.118
+  client-fingerprint: ''
+- name: 'ARISTA #6'
+  type: vmess
+  server: 87.107.81.215
+  port: 8080
+  uuid: 001ed66a-c019-486d-8110-0765cbf0c31d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 87.107.81.215
+  client-fingerprint: ''
+- name: 'ARISTA #7'
   type: vmess
   server: 85.90.217.42
   port: 22324
@@ -146,6 +174,20 @@ proxies:
   tcp-fast-open: true
   servername: 85.90.217.42
   client-fingerprint: null
+- name: 'ARISTA #8'
+  type: vmess
+  server: 27.122.57.43
+  port: 11638
+  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 27.122.57.43
+  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -156,6 +198,9 @@ proxy-groups:
   - 'ARISTA #3'
   - 'ARISTA #4'
   - 'ARISTA #5'
+  - 'ARISTA #6'
+  - 'ARISTA #7'
+  - 'ARISTA #8'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -165,6 +210,9 @@ proxy-groups:
   - 'ARISTA #3'
   - 'ARISTA #4'
   - 'ARISTA #5'
+  - 'ARISTA #6'
+  - 'ARISTA #7'
+  - 'ARISTA #8'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
