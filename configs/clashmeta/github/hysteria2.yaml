@@ -724,6 +724,60 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #73'
+  type: hysteria2
+  server: 107.167.18.123
+  port: 1743
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #74'
+  type: hysteria2
+  server: 73260474-t6ngg0-to8xn3-l4nv.us.hyhuawei.com
+  port: 443
+  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  sni: 73260474-t6ngg0-to8xn3-l4nv.us.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #75'
+  type: hysteria2
+  server: 7751b228-t6pb40-t7xcfs-1ldl3.hk2.hyhuawei.com
+  port: 443
+  password: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+  sni: 7751b228-t6pb40-t7xcfs-1ldl3.hk2.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #76'
+  type: hysteria2
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  port: 443
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #77'
+  type: hysteria2
+  server: 8ce460ac-t6ngg0-tnkuks-wujn.us.hyhuawei.com
+  port: 443
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  sni: 8ce460ac-t6ngg0-tnkuks-wujn.us.hyhuawei.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #78'
+  type: hysteria2
+  server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  port: 1743
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -795,6 +849,12 @@ proxy-groups:
   - 'T.ME: @aristapnel #70'
   - 'T.ME: @aristapnel #71'
   - 'T.ME: @aristapnel #72'
+  - 'T.ME: @aristapnel #73'
+  - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #75'
+  - 'T.ME: @aristapnel #76'
+  - 'T.ME: @aristapnel #77'
+  - 'T.ME: @aristapnel #78'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -865,6 +925,12 @@ proxy-groups:
   - 'T.ME: @aristapnel #70'
   - 'T.ME: @aristapnel #71'
   - 'T.ME: @aristapnel #72'
+  - 'T.ME: @aristapnel #73'
+  - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #75'
+  - 'T.ME: @aristapnel #76'
+  - 'T.ME: @aristapnel #77'
+  - 'T.ME: @aristapnel #78'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
