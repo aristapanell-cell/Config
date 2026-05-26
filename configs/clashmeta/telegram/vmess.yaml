@@ -78,6 +78,20 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22903
+  uuid: 14cab9ec-8a1a-44d9-b2c9-0c5ee8ce3a8c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #2'
+  type: vmess
   server: pro.45259.net
   port: 48668
   uuid: 771f33ce-cc42-4513-b859-c1ac5308b77b
@@ -90,49 +104,7 @@ proxies:
   tcp-fast-open: true
   servername: pro.45259.net
   client-fingerprint: ''
-- name: 'ARISTA #2'
-  type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.236.38.44
-  client-fingerprint: ''
 - name: 'ARISTA #3'
-  type: vmess
-  server: 193.151.143.217
-  port: 2002
-  uuid: e49c6b32-d220-49c9-8bed-981248a06c5b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 193.151.143.217
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: 37.32.6.147
-  port: 18579
-  uuid: 1c83a7ed-080a-4d9a-b0e1-b506791a03fa
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.6.147
-  client-fingerprint: ''
-- name: 'ARISTA #5'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22954
@@ -146,7 +118,7 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #6'
+- name: 'ARISTA #4'
   type: vmess
   server: 195.182.38.168
   port: 17836
@@ -160,11 +132,11 @@ proxies:
   tcp-fast-open: true
   servername: 195.182.38.168
   client-fingerprint: ''
-- name: 'ARISTA #7'
+- name: 'ARISTA #5'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22903
-  uuid: 14cab9ec-8a1a-44d9-b2c9-0c5ee8ce3a8c
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -172,9 +144,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #8'
+- name: 'ARISTA #6'
   type: vmess
   server: ak.reata.ir
   port: 16482
@@ -199,8 +171,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -211,8 +181,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
