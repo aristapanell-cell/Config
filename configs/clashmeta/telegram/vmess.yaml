@@ -78,9 +78,9 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22903
-  uuid: 14cab9ec-8a1a-44d9-b2c9-0c5ee8ce3a8c
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   network: tcp
@@ -88,7 +88,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: 66.163.117.58
   client-fingerprint: ''
 - name: 'ARISTA #2'
   type: vmess
@@ -107,8 +107,8 @@ proxies:
 - name: 'ARISTA #3'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22954
-  uuid: ea9d428c-cd3e-48fd-ae84-a3694b543410
+  port: 22972
+  uuid: ebf50f56-843c-44ae-92f7-c987f9f664de
   alterId: 0
   cipher: auto
   network: tcp
@@ -120,9 +120,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
-  server: 195.182.38.168
-  port: 17836
-  uuid: 6cbf4c64-f290-4d8d-ee63-fe73910bfa9e
+  server: 85.90.217.42
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   network: tcp
@@ -130,13 +130,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 195.182.38.168
+  servername: 85.90.217.42
   client-fingerprint: ''
 - name: 'ARISTA #5'
   type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  server: 45.92.70.236
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   network: tcp
@@ -144,13 +144,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.236.38.44
+  servername: 45.92.70.236
   client-fingerprint: ''
 - name: 'ARISTA #6'
   type: vmess
-  server: ak.reata.ir
-  port: 16482
-  uuid: 1acd9c7c-2ae7-4c22-876e-23d6b416b6b7
+  server: vip.45259.net
+  port: 59961
+  uuid: ceea1085-3db6-41a0-b3e2-c03bd7498201
   alterId: 0
   cipher: auto
   network: tcp
@@ -158,7 +158,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ak.reata.ir
+  servername: vip.45259.net
   client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
