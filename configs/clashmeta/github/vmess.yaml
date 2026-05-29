@@ -152,6 +152,48 @@ proxies:
       Host: yd3.ainivp.com
 - name: 'T.ME: @aristapnel #6'
   type: vmess
+  server: 103.127.243.49
+  port: 53224
+  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 103.127.243.49
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #7'
+  type: vmess
+  server: 8.209.218.109
+  port: 38510
+  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 8.209.218.109
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #8'
+  type: vmess
+  server: 47.239.69.43
+  port: 56698
+  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 47.239.69.43
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #9'
+  type: vmess
   server: 104.17.77.77
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -168,7 +210,91 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 'T.ME: @aristapnel #7'
+- name: 'T.ME: @aristapnel #10'
+  type: vmess
+  server: 103.127.243.59
+  port: 56738
+  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 103.127.243.59
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #11'
+  type: vmess
+  server: 47.237.109.67
+  port: 29124
+  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 47.237.109.67
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #12'
+  type: vmess
+  server: 47.245.58.91
+  port: 12376
+  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 47.245.58.91
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #13'
+  type: vmess
+  server: 47.74.59.195
+  port: 53521
+  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 47.74.59.195
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #14'
+  type: vmess
+  server: 47.91.10.237
+  port: 23464
+  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 47.91.10.237
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #15'
+  type: vmess
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 6001
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #16'
   type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6004
@@ -182,7 +308,35 @@ proxies:
   tcp-fast-open: true
   servername: gtm-sg-cc54q7d1q01.365cloud0285.com
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #8'
+- name: 'T.ME: @aristapnel #17'
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: v10.hdacd.com
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #18'
+  type: vmess
+  server: 85.90.217.42
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 85.90.217.42
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #19'
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -196,7 +350,7 @@ proxies:
   tcp-fast-open: true
   servername: 66.163.117.58
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #9'
+- name: 'T.ME: @aristapnel #20'
   type: vmess
   server: 82.198.246.214
   port: 180
@@ -210,7 +364,7 @@ proxies:
   tcp-fast-open: true
   servername: fra34.chasem2026sud.com
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #10'
+- name: 'T.ME: @aristapnel #21'
   type: vmess
   server: 213.156.141.52
   port: 22324
@@ -224,11 +378,39 @@ proxies:
   tcp-fast-open: true
   servername: 213.156.141.52
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #11'
+- name: 'T.ME: @aristapnel #22'
   type: vmess
-  server: 172.111.146.64
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: v24.hdacd.com
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #23'
+  type: vmess
+  server: 81.30.108.141
+  port: 1020
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 81.30.108.141
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #24'
+  type: vmess
+  server: 51.83.197.140
   port: 80
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  uuid: 7d8c2904-0917-4002-bff9-9a44e1c92fb1
   alterId: 0
   cipher: auto
   network: ws
@@ -236,13 +418,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 172.111.146.64
+  servername: 51.83.197.140
   client-fingerprint: ''
   ws-opts:
-    path: /vmess/
+    path: /api/v1
     headers:
-      Host: 172.111.146.64
-- name: 'T.ME: @aristapnel #12'
+      Host: 51.83.197.140
+- name: 'T.ME: @aristapnel #25'
   type: vmess
   server: uk.connfull.org
   port: 2053
@@ -256,7 +438,7 @@ proxies:
   tcp-fast-open: true
   servername: uk.connfull.org
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #13'
+- name: 'T.ME: @aristapnel #26'
   type: vmess
   server: 172.233.17.76
   port: 22324
@@ -270,7 +452,119 @@ proxies:
   tcp-fast-open: true
   servername: 172.233.17.76
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #14'
+- name: 'T.ME: @aristapnel #27'
+  type: vmess
+  server: 185.137.24.247
+  port: 32264
+  uuid: e4166afe-9736-4389-9159-19794bbd4019
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.24.247
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #28'
+  type: vmess
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.236.38.44
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #29'
+  type: vmess
+  server: 195.182.38.168
+  port: 17836
+  uuid: 6cbf4c64-f290-4d8d-ee63-fe73910bfa9e
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 195.182.38.168
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #30'
+  type: vmess
+  server: 193.151.147.155
+  port: 22301
+  uuid: 16563c51-2db2-4b50-a3f1-572b632c7342
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 193.151.147.155
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #31'
+  type: vmess
+  server: 37.32.6.147
+  port: 18579
+  uuid: 1c83a7ed-080a-4d9a-b0e1-b506791a03fa
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 37.32.6.147
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #32'
+  type: vmess
+  server: 62.60.175.110
+  port: 8440
+  uuid: 5ef3fa8e-717d-4426-aa06-a190c84a0fd7
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: telewebion.com
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #33'
+  type: vmess
+  server: 85.133.206.236
+  port: 4356
+  uuid: 0c9dc39b-47d9-47d8-8dab-c3cce76e3099
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 85.133.206.236
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #34'
+  type: vmess
+  server: 92.42.203.68
+  port: 57392
+  uuid: 47e09a9f-4909-4e2b-8c5c-a37e5b3d26e3
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: bmw.com
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #35'
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -284,7 +578,7 @@ proxies:
   tcp-fast-open: true
   servername: '@ProxyVPN11'
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #15'
+- name: 'T.ME: @aristapnel #36'
   type: vmess
   server: 82.198.246.9
   port: 180
@@ -298,7 +592,7 @@ proxies:
   tcp-fast-open: true
   servername: '@ProxyVPN11'
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #16'
+- name: 'T.ME: @aristapnel #37'
   type: vmess
   server: 172.232.103.186
   port: 22324
@@ -312,7 +606,25 @@ proxies:
   tcp-fast-open: true
   servername: 172.232.103.186
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #17'
+- name: 'T.ME: @aristapnel #38'
+  type: vmess
+  server: yd3.ainivp.com
+  port: 33402
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: yd3.ainivp.com
+  client-fingerprint: ''
+  ws-opts:
+    path: /ray
+    headers:
+      Host: yd3.ainivp.com
+- name: 'T.ME: @aristapnel #39'
   type: vmess
   server: 45.89.107.51
   port: 20521
@@ -330,7 +642,7 @@ proxies:
     path: /
     headers:
       Host: 45.89.107.51
-- name: 'T.ME: @aristapnel #18'
+- name: 'T.ME: @aristapnel #40'
   type: vmess
   server: 8.218.17.136
   port: 4728
@@ -348,7 +660,7 @@ proxies:
     path: /
     headers:
       Host: 8.218.17.136
-- name: 'T.ME: @aristapnel #19'
+- name: 'T.ME: @aristapnel #41'
   type: vmess
   server: 209.126.84.189
   port: 443
@@ -366,7 +678,7 @@ proxies:
     path: /vmessws
     headers:
       Host: 209.126.84.189
-- name: 'T.ME: @aristapnel #20'
+- name: 'T.ME: @aristapnel #42'
   type: vmess
   server: 62.146.235.193
   port: 28011
@@ -380,7 +692,7 @@ proxies:
   tcp-fast-open: true
   servername: 62.146.235.193
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #21'
+- name: 'T.ME: @aristapnel #43'
   type: vmess
   server: n1744454498.lie5d.cyou
   port: 443
@@ -398,7 +710,7 @@ proxies:
     path: /
     headers:
       Host: n1744454498.lie5d.cyou
-- name: 'T.ME: @aristapnel #22'
+- name: 'T.ME: @aristapnel #44'
   type: vmess
   server: 5.196.29.123
   port: 2082
@@ -416,7 +728,7 @@ proxies:
     path: /
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 'T.ME: @aristapnel #23'
+- name: 'T.ME: @aristapnel #45'
   type: vmess
   server: n1744454501.4u9ma.icu
   port: 443
@@ -434,7 +746,7 @@ proxies:
     path: /
     headers:
       Host: n1744454501.4u9ma.icu
-- name: 'T.ME: @aristapnel #24'
+- name: 'T.ME: @aristapnel #46'
   type: vmess
   server: 164.138.202.55
   port: 50475
@@ -448,7 +760,7 @@ proxies:
   tcp-fast-open: true
   servername: 164.138.202.55
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #25'
+- name: 'T.ME: @aristapnel #47'
   type: vmess
   server: 5.231.56.98
   port: 3721
@@ -466,7 +778,7 @@ proxies:
     path: ''
     headers:
       Host: 5.231.56.98
-- name: 'T.ME: @aristapnel #26'
+- name: 'T.ME: @aristapnel #48'
   type: vmess
   server: nm7386.teeoomboom.de
   port: 443
@@ -484,7 +796,7 @@ proxies:
     path: /video/2upvxla.m3u8
     headers:
       Host: nm7386.teeoomboom.de
-- name: 'T.ME: @aristapnel #27'
+- name: 'T.ME: @aristapnel #49'
   type: vmess
   server: jl2klj.teeoomboom.de
   port: 443
@@ -502,25 +814,7 @@ proxies:
     path: /video/7mtc1f.m3u8
     headers:
       Host: jl2klj.teeoomboom.de
-- name: 'T.ME: @aristapnel #28'
-  type: vmess
-  server: 45.130.125.76
-  port: 2087
-  uuid: 78e64117-fb24-4e32-adaa-788ab7876cd3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: wIn.CcNnx.IR
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia
-    headers:
-      Host: wIn.CcNnx.IR
-- name: 'T.ME: @aristapnel #29'
+- name: 'T.ME: @aristapnel #50'
   type: vmess
   server: 103.31.79.186
   port: 443
@@ -541,7 +835,39 @@ proxies:
     path: /kos-nanat-decoder
     headers:
       Host: sctest1.dr-ping.ir
-- name: 'T.ME: @aristapnel #30'
+- name: 'T.ME: @aristapnel #51'
+  type: vmess
+  server: cu3.ainivp.com
+  port: 33103
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cu3.ainivp.com
+  client-fingerprint: ''
+  ws-opts:
+    path: /ray
+    headers:
+      Host: cu3.ainivp.com
+- name: 'T.ME: @aristapnel #52'
+  type: vmess
+  server: s2.projectv.bond
+  port: 42444
+  uuid: 8521095b-5512-4589-9688-18750f3aa6b4
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: s2.projectv.bond
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #53'
   type: vmess
   server: node-de.connectsuite.org
   port: 2053
@@ -558,7 +884,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #31'
+- name: 'T.ME: @aristapnel #54'
   type: vmess
   server: 158.69.208.120
   port: 80
@@ -571,12 +897,30 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 158.69.208.120
-  client-fingerprint: ''
+  client-fingerprint: chrome
   ws-opts:
     path: /api/v1
     headers:
       Host: 158.69.208.120
-- name: 'T.ME: @aristapnel #32'
+- name: 'T.ME: @aristapnel #55'
+  type: vmess
+  server: 109.61.109.204
+  port: 59696
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: imafake.locker
+  client-fingerprint: chrome
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: imafake.locker
+- name: 'T.ME: @aristapnel #56'
   type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6003
@@ -589,8 +933,40 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: gtm-sg-cc54q7d1q01.365cloud0285.com
-  client-fingerprint: ''
-- name: 'T.ME: @aristapnel #33'
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #57'
+  type: vmess
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 6001
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #58'
+  type: vmess
+  server: 45.128.72.44
+  port: 80
+  uuid: a2170d39-140a-47f9-85b8-084078856c36
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 45.128.72.44
+  client-fingerprint: chrome
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: 45.128.72.44
+- name: 'T.ME: @aristapnel #59'
   type: vmess
   server: 45.15.178.97
   port: 80
@@ -608,7 +984,25 @@ proxies:
     path: /api/v1
     headers:
       Host: openai.com
-- name: 'T.ME: @aristapnel #34'
+- name: 'T.ME: @aristapnel #60'
+  type: vmess
+  server: 130.94.101.35
+  port: 46820
+  uuid: f23b322c-9bc1-4a0c-803d-494db9d4099d
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 130.94.101.35
+  client-fingerprint: ''
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 130.94.101.35
+- name: 'T.ME: @aristapnel #61'
   type: vmess
   server: pl.connfull.org
   port: 2053
@@ -622,21 +1016,21 @@ proxies:
   tcp-fast-open: true
   servername: pl.connfull.org
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #35'
+- name: 'T.ME: @aristapnel #62'
   type: vmess
-  server: 129.146.143.80
-  port: 48111
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  server: ro.connfull.org
+  port: 2053
+  uuid: 9a6be41d-511a-4800-b828-368ca32dd56d
   alterId: 0
   cipher: auto
   network: tcp
-  tls: false
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 129.146.143.80
+  servername: ro.connfull.org
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #36'
+- name: 'T.ME: @aristapnel #63'
   type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6001
@@ -650,7 +1044,21 @@ proxies:
   tcp-fast-open: true
   servername: gtm-sg-cc54q7d1q01.365cloud0285.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #37'
+- name: 'T.ME: @aristapnel #64'
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 47.250.135.244
+  client-fingerprint: ''
+- name: 'T.ME: @aristapnel #65'
   type: vmess
   server: 212.87.198.79
   port: 45255
@@ -664,49 +1072,53 @@ proxies:
   tcp-fast-open: true
   servername: bale.ai
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #38'
+- name: 'T.ME: @aristapnel #66'
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 129.146.77.248
+  client-fingerprint: chrome
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 129.146.77.248
+- name: 'T.ME: @aristapnel #67'
   type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6004
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  network: tcp
+  network: raw
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
   servername: gtm-sg-cc54q7d1q01.365cloud0285.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #39'
+- name: 'T.ME: @aristapnel #68'
   type: vmess
-  server: 104.233.214.176
-  port: 13581
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 104.233.214.176
-  client-fingerprint: ''
-- name: 'T.ME: @aristapnel #40'
-  type: vmess
-  server: 155.254.126.249
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6001
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  network: tcp
+  network: raw
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 155.254.126.249
-  client-fingerprint: ''
-- name: 'T.ME: @aristapnel #41'
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #69'
   type: vmess
   server: 47.250.149.51
   port: 50018
@@ -724,7 +1136,7 @@ proxies:
     path: /9665280c
     headers:
       Host: 47.250.149.51
-- name: 'T.ME: @aristapnel #42'
+- name: 'T.ME: @aristapnel #70'
   type: vmess
   server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
   port: 80
@@ -742,53 +1154,7 @@ proxies:
     path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp
     headers:
       Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-- name: 'T.ME: @aristapnel #43'
-  type: vmess
-  server: 213.156.141.52
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: null
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 213.156.141.52
-  client-fingerprint: null
-- name: 'T.ME: @aristapnel #44'
-  type: vmess
-  server: jp02.a0a.xyz
-  port: 25686
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: jp02.a0a.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: jp02.a0a.xyz
-- name: 'T.ME: @aristapnel #45'
-  type: vmess
-  server: 153.121.73.175
-  port: 49803
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 153.121.73.175
-  client-fingerprint: ''
-- name: 'T.ME: @aristapnel #46'
+- name: 'T.ME: @aristapnel #71'
   type: vmess
   server: 172.104.80.66
   port: 22324
@@ -802,21 +1168,7 @@ proxies:
   tcp-fast-open: true
   servername: 172.104.80.66
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #47'
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 38.110.1.246
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #48'
+- name: 'T.ME: @aristapnel #72'
   type: vmess
   server: 67.220.85.46
   port: 18000
@@ -830,77 +1182,7 @@ proxies:
   tcp-fast-open: true
   servername: 67.220.85.46
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #49'
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 38.91.107.49
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #50'
-  type: vmess
-  server: 38.114.123.42
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: null
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 38.114.123.42
-  client-fingerprint: null
-- name: 'T.ME: @aristapnel #51'
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 169.197.142.22
-  client-fingerprint: ''
-- name: 'T.ME: @aristapnel #52'
-  type: vmess
-  server: 216.106.185.141
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: null
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 216.106.185.141
-  client-fingerprint: null
-- name: 'T.ME: @aristapnel #53'
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 84.17.41.2
-  client-fingerprint: null
-- name: 'T.ME: @aristapnel #54'
+- name: 'T.ME: @aristapnel #73'
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -914,21 +1196,7 @@ proxies:
   tcp-fast-open: true
   servername: 134.195.196.211
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #55'
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: null
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 23.162.200.198
-  client-fingerprint: null
-- name: 'T.ME: @aristapnel #56'
+- name: 'T.ME: @aristapnel #74'
   type: vmess
   server: 172.232.103.186
   port: 22324
@@ -941,240 +1209,8 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 172.232.103.186
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #57'
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: kr02.a0a.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
-- name: 'T.ME: @aristapnel #58'
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: aes-128-gcm
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 67.220.95.3
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #59'
-  type: vmess
-  server: 172.233.17.76
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 172.233.17.76
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #60'
-  type: vmess
-  server: 82.198.246.9
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 82.198.246.9
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #61'
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 82.198.246.37
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #62'
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: jp2-8sb.6121999.dpdns.org
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #63'
-  type: vmess
-  server: 82.198.246.233
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 82.198.246.233
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #64'
-  type: vmess
-  server: 67.220.72.237
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 67.220.72.237
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #65'
-  type: vmess
-  server: 216.106.183.35
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 216.106.183.35
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #66'
-  type: vmess
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 82.198.246.250
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #67'
-  type: vmess
-  server: 82.198.246.46
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 82.198.246.46
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #68'
-  type: vmess
-  server: 45.92.70.236
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 45.92.70.236
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #69'
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: '@ProxyVPN11'
-  client-fingerprint: ''
-- name: 'T.ME: @aristapnel #70'
-  type: vmess
-  server: 103.143.238.196
-  port: 21879
-  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 103.143.238.196
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vmesswss
-    headers:
-      Host: 103.143.238.196
-- name: 'T.ME: @aristapnel #71'
-  type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6003
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #72'
-  type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6004
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #73'
+- name: 'T.ME: @aristapnel #75'
   type: vmess
   server: snitmp.amirpeiraviweb.ir
   port: 8443
@@ -1192,7 +1228,7 @@ proxies:
     path: /
     headers:
       Host: snitmp.amir467.shop
-- name: 'T.ME: @aristapnel #74'
+- name: 'T.ME: @aristapnel #76'
   type: vmess
   server: ro.connfull.org
   port: 2053
@@ -1206,7 +1242,7 @@ proxies:
   tcp-fast-open: true
   servername: ro.connfull.org
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #75'
+- name: 'T.ME: @aristapnel #77'
   type: vmess
   server: ray.skymirror.cc
   port: 443
@@ -1224,43 +1260,43 @@ proxies:
     path: /
     headers:
       Host: ray.skymirror.cc
-- name: 'T.ME: @aristapnel #76'
-  type: vmess
-  server: hk2.lrzdx.uk
-  port: 443
-  uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: hk2.lrzdx.uk
-  client-fingerprint: chrome
-  ws-opts:
-    path: /register
-    headers:
-      Host: hk2.lrzdx.uk
-- name: 'T.ME: @aristapnel #77'
-  type: vmess
-  server: hk2.lrzdx.uk
-  port: 443
-  uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: hk2.lrzdx.uk
-  client-fingerprint: chrome
-  ws-opts:
-    path: /register
-    headers:
-      Host: hk2.lrzdx.uk
 - name: 'T.ME: @aristapnel #78'
+  type: vmess
+  server: hk2.lrzdx.uk
+  port: 443
+  uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: hk2.lrzdx.uk
+  client-fingerprint: chrome
+  ws-opts:
+    path: /register
+    headers:
+      Host: hk2.lrzdx.uk
+- name: 'T.ME: @aristapnel #79'
+  type: vmess
+  server: hk2.lrzdx.uk
+  port: 443
+  uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: hk2.lrzdx.uk
+  client-fingerprint: chrome
+  ws-opts:
+    path: /register
+    headers:
+      Host: hk2.lrzdx.uk
+- name: 'T.ME: @aristapnel #80'
   type: vmess
   server: gs03-1.guoshi1520.com
   port: 443
@@ -1278,7 +1314,7 @@ proxies:
     path: /82ff6d30
     headers:
       Host: gs03-1.guoshi1520.com
-- name: 'T.ME: @aristapnel #79'
+- name: 'T.ME: @aristapnel #81'
   type: vmess
   server: cloudgetservice.mcloudservice.site
   port: 443
@@ -1296,7 +1332,7 @@ proxies:
     path: /linkws
     headers:
       Host: maXNEtVIP-usA-VP3.nETKH3.SiTE
-- name: 'T.ME: @aristapnel #80'
+- name: 'T.ME: @aristapnel #82'
   type: vmess
   server: ak.reata.ir
   port: 16482
@@ -1310,7 +1346,7 @@ proxies:
   tcp-fast-open: true
   servername: ak.reata.ir
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #81'
+- name: 'T.ME: @aristapnel #83'
   type: vmess
   server: a.886968.xyz
   port: 21369
@@ -1328,7 +1364,7 @@ proxies:
     path: /wfdef
     headers:
       Host: a.886968.xyz
-- name: 'T.ME: @aristapnel #82'
+- name: 'T.ME: @aristapnel #84'
   type: vmess
   server: xc125-1.meiziba5566.com
   port: 443
@@ -1346,7 +1382,7 @@ proxies:
     path: /6b95d340
     headers:
       Host: xc125-1.meiziba5566.com
-- name: 'T.ME: @aristapnel #83'
+- name: 'T.ME: @aristapnel #85'
   type: vmess
   server: xc115-1.meiziba5566.com
   port: 443
@@ -1364,7 +1400,7 @@ proxies:
     path: /f40a8d65
     headers:
       Host: xc115-1.meiziba5566.com
-- name: 'T.ME: @aristapnel #84'
+- name: 'T.ME: @aristapnel #86'
   type: vmess
   server: xc011-2.meiziba5566.com
   port: 443
@@ -1382,7 +1418,7 @@ proxies:
     path: /xc1234
     headers:
       Host: xc011-2.meiziba5566.com
-- name: 'T.ME: @aristapnel #85'
+- name: 'T.ME: @aristapnel #87'
   type: vmess
   server: xcf037.facai2024.com
   port: 443
@@ -1400,7 +1436,7 @@ proxies:
     path: /d9863037
     headers:
       Host: xcf037.facai2024.com
-- name: 'T.ME: @aristapnel #86'
+- name: 'T.ME: @aristapnel #88'
   type: vmess
   server: xcf036.facai2024.com
   port: 443
@@ -1418,7 +1454,7 @@ proxies:
     path: /96c585de
     headers:
       Host: xcf036.facai2024.com
-- name: 'T.ME: @aristapnel #87'
+- name: 'T.ME: @aristapnel #89'
   type: vmess
   server: xcf029.facai2024.com
   port: 443
@@ -1436,7 +1472,7 @@ proxies:
     path: /9ce4526a
     headers:
       Host: xcf029.facai2024.com
-- name: 'T.ME: @aristapnel #88'
+- name: 'T.ME: @aristapnel #90'
   type: vmess
   server: xcmg19.dtkj0328.com
   port: 443
@@ -1454,7 +1490,7 @@ proxies:
     path: /xcmg1234
     headers:
       Host: xcmg19.dtkj0328.com
-- name: 'T.ME: @aristapnel #89'
+- name: 'T.ME: @aristapnel #91'
   type: vmess
   server: www.wn03.cc
   port: 80
@@ -1472,7 +1508,7 @@ proxies:
     path: /rongseven?ed=2048
     headers:
       Host: us.freeyyds.dpdns.org
-- name: 'T.ME: @aristapnel #90'
+- name: 'T.ME: @aristapnel #92'
   type: vmess
   server: web.iranmedia.shop
   port: 40880
@@ -1486,7 +1522,7 @@ proxies:
   tcp-fast-open: true
   servername: telewebion.ir
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #91'
+- name: 'T.ME: @aristapnel #93'
   type: vmess
   server: vip.45259.net
   port: 59961
@@ -1500,7 +1536,7 @@ proxies:
   tcp-fast-open: true
   servername: vip.45259.net
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #92'
+- name: 'T.ME: @aristapnel #94'
   type: vmess
   server: u8.huvicloud.com
   port: 443
@@ -1518,7 +1554,7 @@ proxies:
     path: /6796611b-260e-4d63-9016-20c27b12e420
     headers:
       Host: u8.huvicloud.com
-- name: 'T.ME: @aristapnel #93'
+- name: 'T.ME: @aristapnel #95'
   type: vmess
   server: tk.hzlt.tkddns.xyz
   port: 22643
@@ -1536,7 +1572,7 @@ proxies:
     path: /
     headers:
       Host: zxjp-c.tkong.cc
-- name: 'T.ME: @aristapnel #94'
+- name: 'T.ME: @aristapnel #96'
   type: vmess
   server: time.is
   port: 443
@@ -1554,7 +1590,7 @@ proxies:
     path: /
     headers:
       Host: shs111.kejixiaoqi666.store
-- name: 'T.ME: @aristapnel #95'
+- name: 'T.ME: @aristapnel #97'
   type: vmess
   server: 3sdfgvcxxx.938.pp.ua
   port: 443
@@ -1572,7 +1608,7 @@ proxies:
     path: /P879mtCoHQqaWO67qEaMINZ1
     headers:
       Host: 3sdfgvcxxx.938.pp.ua
-- name: 'T.ME: @aristapnel #96'
+- name: 'T.ME: @aristapnel #98'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -1586,7 +1622,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #97'
+- name: 'T.ME: @aristapnel #99'
   type: vmess
   server: 172.67.198.187
   port: 443
@@ -1604,7 +1640,7 @@ proxies:
     path: /linkws
     headers:
       Host: xmivideo.cfd
-- name: 'T.ME: @aristapnel #98'
+- name: 'T.ME: @aristapnel #100'
   type: vmess
   server: 104.19.32.0
   port: 443
@@ -1622,7 +1658,7 @@ proxies:
     path: /linkws
     headers:
       Host: xmivideo.cfd
-- name: 'T.ME: @aristapnel #99'
+- name: 'T.ME: @aristapnel #101'
   type: vmess
   server: 104.17.137.127
   port: 443
@@ -1640,7 +1676,7 @@ proxies:
     path: /aa
     headers:
       Host: hk.niskakowski.ggff.net
-- name: 'T.ME: @aristapnel #100'
+- name: 'T.ME: @aristapnel #102'
   type: vmess
   server: 104.16.7.70
   port: 443
@@ -1658,7 +1694,7 @@ proxies:
     path: /
     headers:
       Host: a25.arisping-ir.click
-- name: 'T.ME: @aristapnel #101'
+- name: 'T.ME: @aristapnel #103'
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -1672,7 +1708,7 @@ proxies:
   tcp-fast-open: true
   servername: 66.163.117.58
   client-fingerprint: ''
-- name: 'T.ME: @aristapnel #102'
+- name: 'T.ME: @aristapnel #104'
   type: vmess
   server: 45.130.125.76
   port: 8443
@@ -1797,6 +1833,8 @@ proxy-groups:
   - 'T.ME: @aristapnel #100'
   - 'T.ME: @aristapnel #101'
   - 'T.ME: @aristapnel #102'
+  - 'T.ME: @aristapnel #103'
+  - 'T.ME: @aristapnel #104'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -1903,6 +1941,8 @@ proxy-groups:
   - 'T.ME: @aristapnel #100'
   - 'T.ME: @aristapnel #101'
   - 'T.ME: @aristapnel #102'
+  - 'T.ME: @aristapnel #103'
+  - 'T.ME: @aristapnel #104'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
