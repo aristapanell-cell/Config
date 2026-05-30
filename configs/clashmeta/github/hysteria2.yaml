@@ -528,6 +528,28 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #50'
   type: hysteria2
+  server: 206.71.158.23
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: gavazn.55994421.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Telegram--%3E%40Ln2Ray
+- name: 'T.ME: @aristapnel #51'
+  type: hysteria2
+  server: 18.194.55.17
+  port: 443
+  password: MasirSefid
+  sni: qs.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: MasirSefid
+- name: 'T.ME: @aristapnel #52'
+  type: hysteria2
   server: 206.71.158.37
   port: 35000
   password: Yet-Another-Public-Config-1
@@ -537,17 +559,17 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
-- name: 'T.ME: @aristapnel #51'
+- name: 'T.ME: @aristapnel #53'
   type: hysteria2
-  server: 206.71.158.37
-  port: 36600
-  password: Yet-Another-Public-Config-1
-  sni: YAPC-1.afshin.ir
+  server: 206.71.158.40
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
+  obfs-password: '%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -603,6 +625,8 @@ proxy-groups:
   - 'T.ME: @aristapnel #49'
   - 'T.ME: @aristapnel #50'
   - 'T.ME: @aristapnel #51'
+  - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -657,6 +681,8 @@ proxy-groups:
   - 'T.ME: @aristapnel #49'
   - 'T.ME: @aristapnel #50'
   - 'T.ME: @aristapnel #51'
+  - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
