@@ -335,17 +335,6 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-- name: 'T.ME: @aristapnel #28'
-  type: hysteria2
-  server: 204.12.170.168
-  port: 443
-  password: de72b066a61a39af
-  sni: claude.ai
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: 726c9c641a068d74
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -378,7 +367,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #25'
   - 'T.ME: @aristapnel #26'
   - 'T.ME: @aristapnel #27'
-  - 'T.ME: @aristapnel #28'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -410,7 +398,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #25'
   - 'T.ME: @aristapnel #26'
   - 'T.ME: @aristapnel #27'
-  - 'T.ME: @aristapnel #28'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
