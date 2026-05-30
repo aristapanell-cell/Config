@@ -85,17 +85,28 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+- name: 'Hysteria2 #2'
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
   proxies:
   - Auto Select
   - 'Hysteria2 #1'
+  - 'Hysteria2 #2'
   - DIRECT
 - name: Auto Select
   type: url-test
   proxies:
   - 'Hysteria2 #1'
+  - 'Hysteria2 #2'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
