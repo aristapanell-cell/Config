@@ -78,8 +78,8 @@ sniffer:
 proxies:
 - name: 'Hysteria2 #1'
   type: hysteria2
-  server: 18.196.180.90
-  port: 444
+  server: 18.153.46.206
+  port: 443
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
   skip-cert-verify: false
@@ -89,8 +89,8 @@ proxies:
   obfs-password: Masir_Sefid
 - name: 'Hysteria2 #2'
   type: hysteria2
-  server: 18.159.104.97
-  port: 4040
+  server: 18.153.46.206
+  port: 444
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
   skip-cert-verify: false
@@ -100,7 +100,7 @@ proxies:
   obfs-password: Masir_Sefid
 - name: 'Hysteria2 #3'
   type: hysteria2
-  server: 18.196.180.90
+  server: 18.153.46.206
   port: 1040
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
@@ -112,7 +112,7 @@ proxies:
 - name: 'Hysteria2 #4'
   type: hysteria2
   server: 18.153.46.206
-  port: 443
+  port: 4040
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
   skip-cert-verify: false
@@ -123,7 +123,7 @@ proxies:
 - name: 'Hysteria2 #5'
   type: hysteria2
   server: 18.153.46.206
-  port: 444
+  port: 54040
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
   skip-cert-verify: false
@@ -133,8 +133,8 @@ proxies:
   obfs-password: Masir_Sefid
 - name: 'Hysteria2 #6'
   type: hysteria2
-  server: 18.153.46.206
-  port: 1040
+  server: 18.159.104.97
+  port: 4040
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
   skip-cert-verify: false
@@ -144,8 +144,8 @@ proxies:
   obfs-password: Masir_Sefid
 - name: 'Hysteria2 #7'
   type: hysteria2
-  server: 18.153.46.206
-  port: 4040
+  server: 18.196.180.90
+  port: 1040
   password: Masir_Sefid
   sni: qus.masir-sefid.shop
   skip-cert-verify: false
@@ -155,15 +155,15 @@ proxies:
   obfs-password: Masir_Sefid
 - name: 'Hysteria2 #8'
   type: hysteria2
-  server: 18.153.46.206
-  port: 54040
-  password: Masir_Sefid
-  sni: qus.masir-sefid.shop
+  server: nrealistic.nn-foto.ru
+  port: 8932
+  password: rstnnl2705%3AZmRjX7MkeEqZ5GQUIT5VO53ARuy6nrmQ
+  sni: nrealistic.nn-foto.ru
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: Masir_Sefid
+  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
 proxy-groups:
 - name: Proxy Select
   type: select
