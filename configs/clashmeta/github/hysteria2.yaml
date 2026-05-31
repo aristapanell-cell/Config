@@ -515,6 +515,127 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: Telegram--%3E%40Ln2Ray
+- name: 'T.ME: @aristapnel #46'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 444
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'T.ME: @aristapnel #47'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 1040
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'T.ME: @aristapnel #48'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 1040
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'T.ME: @aristapnel #49'
+  type: hysteria2
+  server: 206.71.158.23
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: gavazn.55994421.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Telegram--%3E%40Ln2Ray
+- name: 'T.ME: @aristapnel #50'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 54040
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'T.ME: @aristapnel #51'
+  type: hysteria2
+  server: musicclips.videolinks.ru
+  port: 8443
+  password: rstnnl2705
+  sni: musicclips.videolinks.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw
+- name: 'T.ME: @aristapnel #52'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 443
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'T.ME: @aristapnel #53'
+  type: hysteria2
+  server: 206.71.158.41
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: '%2540JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+- name: 'T.ME: @aristapnel #54'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 4040
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'T.ME: @aristapnel #55'
+  type: hysteria2
+  server: 206.71.158.37
+  port: 35200
+  password: Yet-Another-Public-Config-1
+  sni: YAPC-1.afshin.ir
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+- name: 'T.ME: @aristapnel #56'
+  type: hysteria2
+  server: 18.196.180.90
+  port: 8880
+  password: Masir_Sefid
+  sni: qus.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -565,6 +686,17 @@ proxy-groups:
   - 'T.ME: @aristapnel #43'
   - 'T.ME: @aristapnel #44'
   - 'T.ME: @aristapnel #45'
+  - 'T.ME: @aristapnel #46'
+  - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
+  - 'T.ME: @aristapnel #49'
+  - 'T.ME: @aristapnel #50'
+  - 'T.ME: @aristapnel #51'
+  - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
+  - 'T.ME: @aristapnel #54'
+  - 'T.ME: @aristapnel #55'
+  - 'T.ME: @aristapnel #56'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -614,6 +746,17 @@ proxy-groups:
   - 'T.ME: @aristapnel #43'
   - 'T.ME: @aristapnel #44'
   - 'T.ME: @aristapnel #45'
+  - 'T.ME: @aristapnel #46'
+  - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
+  - 'T.ME: @aristapnel #49'
+  - 'T.ME: @aristapnel #50'
+  - 'T.ME: @aristapnel #51'
+  - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
+  - 'T.ME: @aristapnel #54'
+  - 'T.ME: @aristapnel #55'
+  - 'T.ME: @aristapnel #56'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
