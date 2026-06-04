@@ -78,62 +78,6 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: de5.taskflowhub.org
-  port: 2053
-  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: de5.taskflowhub.org
-  client-fingerprint: ''
-- name: 'ARISTA #2'
-  type: vmess
-  server: 45.63.100.170
-  port: 43220
-  uuid: d3d0941c-0b17-4b25-a6ac-3eca244cc90e
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 45.63.100.170
-  client-fingerprint: ''
-- name: 'ARISTA #3'
-  type: vmess
-  server: zizi.galotkhosher.website
-  port: 36635
-  uuid: 7a54729c-d1a5-4b6b-a92a-2fb2a279e458
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: zizi.galotkhosher.website
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: 45.63.100.170
-  port: 43220
-  uuid: 8f9cebd7-2737-454f-8706-384a817bf062
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 45.63.100.170
-  client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
   server: renderer-stream-1-411.mirra.now
   port: 443
   uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
@@ -150,43 +94,49 @@ proxies:
     path: /api/v1/gpu-stream/socket
     headers:
       Host: renderer-stream-1-411.mirra.now
-- name: 'ARISTA #6'
+- name: 'ARISTA #2'
   type: vmess
-  server: de2.pg.fastlanehosting.ru
-  port: 443
-  uuid: 4682731a-4949-4b7c-87d9-e7074a877a7d
+  server: ec0c9ef2c915f271ec0c9ef2c915f271.dadhost.ir
+  port: 23699
+  uuid: df64d822-0009-48c4-a4a8-5a4b7beb93f2
   alterId: 0
   cipher: auto
-  network: ws
-  tls: true
+  network: tcp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: de2.pg.fastlanehosting.ru
+  servername: ec0c9ef2c915f271ec0c9ef2c915f271.dadhost.ir
   client-fingerprint: ''
-  ws-opts:
-    path: /
-    headers:
-      Host: de2.pg.fastlanehosting.ru
-- name: 'ARISTA #7'
+- name: 'ARISTA #3'
   type: vmess
-  server: md1.pg.fastlanehosting.ru
-  port: 443
-  uuid: 4682731a-4949-4b7c-87d9-e7074a877a7d
+  server: s1.connect.labex.pro
+  port: 1101
+  uuid: 5ac8bdaf-9fa3-4a84-83a8-530eea86b586
   alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
+  cipher: aes-128-gcm
+  network: tcp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: md1.pg.fastlanehosting.ru
+  servername: s1.connect.labex.pro
   client-fingerprint: ''
-  ws-opts:
-    path: /
-    headers:
-      Host: md1.pg.fastlanehosting.ru
-- name: 'ARISTA #8'
+- name: 'ARISTA #4'
+  type: vmess
+  server: 51.195.235.71
+  port: 2052
+  uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.195.235.71
+  client-fingerprint: ''
+- name: 'ARISTA #5'
   type: vmess
   server: 51.195.91.135
   port: 10000
@@ -204,25 +154,11 @@ proxies:
     path: /vpnjantit
     headers:
       Host: 51.195.91.135
-- name: 'ARISTA #9'
+- name: 'ARISTA #6'
   type: vmess
-  server: 51.195.235.71
-  port: 2052
-  uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 51.195.235.71
-  client-fingerprint: ''
-- name: 'ARISTA #10'
-  type: vmess
-  server: node-de.connectsuite.org
+  server: de5.taskflowhub.org
   port: 2053
-  uuid: fd169a0a-5c32-4f3e-9b6c-28dd35f2a5e5
+  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884
   alterId: 0
   cipher: auto
   network: tcp
@@ -230,12 +166,63 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: node-de.connectsuite.org
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'ARISTA #11'
+  servername: de5.taskflowhub.org
+  client-fingerprint: ''
+- name: 'ARISTA #7'
+  type: vmess
+  server: de2.pg.fastlanehosting.ru
+  port: 443
+  uuid: 4682731a-4949-4b7c-87d9-e7074a877a7d
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: de2.pg.fastlanehosting.ru
+  client-fingerprint: ''
+  ws-opts:
+    path: /
+    headers:
+      Host: de2.pg.fastlanehosting.ru
+- name: 'ARISTA #8'
+  type: vmess
+  server: md1.pg.fastlanehosting.ru
+  port: 443
+  uuid: 4682731a-4949-4b7c-87d9-e7074a877a7d
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: md1.pg.fastlanehosting.ru
+  client-fingerprint: ''
+  ws-opts:
+    path: /
+    headers:
+      Host: md1.pg.fastlanehosting.ru
+- name: 'ARISTA #9'
+  type: vmess
+  server: 45.130.125.96
+  port: 2096
+  uuid: df64d822-0009-48c4-a4a8-5a4b7beb93f2
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: notathing.dadcloud.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: ''
+    headers:
+      Host: notathing.dadcloud.ir
+- name: 'ARISTA #10'
   type: vmess
   server: node-fr.connectsuite.org
   port: 2053
@@ -252,11 +239,42 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 'ARISTA #11'
+  type: vmess
+  server: 51.195.235.71
+  port: 2052
+  uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.195.235.71
+  client-fingerprint: ''
 - name: 'ARISTA #12'
+  type: vmess
+  server: node-de.connectsuite.org
+  port: 2053
+  uuid: fd169a0a-5c32-4f3e-9b6c-28dd35f2a5e5
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: node-de.connectsuite.org
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #13'
   type: vmess
   server: 45.63.100.170
   port: 43220
-  uuid: 52273755-abee-4239-8688-5bb7d0629d6f
+  uuid: 54d46f38-6332-4906-97d6-a277870413f9
   alterId: 0
   cipher: auto
   network: tcp
@@ -265,49 +283,25 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 45.63.100.170
-  client-fingerprint: ''
-- name: 'ARISTA #13'
-  type: vmess
-  server: s1.connect.labex.pro
-  port: 1101
-  uuid: 5ac8bdaf-9fa3-4a84-83a8-530eea86b586
-  alterId: 0
-  cipher: aes-128-gcm
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: s1.connect.labex.pro
   client-fingerprint: ''
 - name: 'ARISTA #14'
   type: vmess
-  server: hossein.abravar.vip
-  port: 443
-  uuid: ecae7bd8-6b65-40ca-86c8-e9d651f19505
+  server: 2.26.250.45
+  port: 58248
+  uuid: 7965e0f5-cc14-4e67-be48-b7a41b916f9e
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: hossein.abravar.vip
+  servername: 2.26.250.45
   client-fingerprint: ''
-- name: 'ARISTA #15'
-  type: vmess
-  server: 45.63.100.170
-  port: 43220
-  uuid: 52273755-abee-4239-8688-5bb7d0629d6f
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 45.63.100.170
-  client-fingerprint: ''
+  ws-opts:
+    path: /
+    headers:
+      Host: 2.26.250.45
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -327,7 +321,6 @@ proxy-groups:
   - 'ARISTA #12'
   - 'ARISTA #13'
   - 'ARISTA #14'
-  - 'ARISTA #15'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -346,7 +339,6 @@ proxy-groups:
   - 'ARISTA #12'
   - 'ARISTA #13'
   - 'ARISTA #14'
-  - 'ARISTA #15'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
