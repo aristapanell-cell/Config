@@ -846,21 +846,13 @@ proxies:
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #106'
   type: ss
-  server: it5.taskflowhub.org
-  port: 2083
-  cipher: aes-256-gcm
-  password: 34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0=
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #107'
-  type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #108'
+- name: 'T.ME: @aristapnel #107'
   type: ss
   server: nbmrcg0034686rw.cybervena.com
   port: 50099
@@ -868,7 +860,7 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #109'
+- name: 'T.ME: @aristapnel #108'
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
@@ -876,7 +868,7 @@ proxies:
   password: oHguU86Hoa41HAncW88o4kEspy8sos9tkbnK6uLvsgfMetuFKEChk2QY6eR3a67NXAmWe2kD8vbhZEyuw2Gx1hDPXXSgmimt
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #110'
+- name: 'T.ME: @aristapnel #109'
   type: ss
   server: 217.30.10.70
   port: 9037
@@ -884,7 +876,7 @@ proxies:
   password: TN2YqghxeFDKZfLU
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #111'
+- name: 'T.ME: @aristapnel #110'
   type: ss
   server: 217.30.10.70
   port: 9007
@@ -892,7 +884,7 @@ proxies:
   password: kSPmvwdFzGMMW5pY
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #112'
+- name: 'T.ME: @aristapnel #111'
   type: ss
   server: 83.166.250.6
   port: 51287
@@ -1007,7 +999,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #109'
   - 'T.ME: @aristapnel #110'
   - 'T.ME: @aristapnel #111'
-  - 'T.ME: @aristapnel #112'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -1114,7 +1105,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #109'
   - 'T.ME: @aristapnel #110'
   - 'T.ME: @aristapnel #111'
-  - 'T.ME: @aristapnel #112'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
