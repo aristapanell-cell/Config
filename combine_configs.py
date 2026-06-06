@@ -20,198 +20,15 @@ class ConfigCombiner:
             'wireguard', 'other'
         ]
         
-        self.os_list = [
-            {'name': 'اندروید', 'emoji': '🤖', 'id': 'android'},
-            {'name': 'آی‌اواس', 'emoji': '🍏', 'id': 'ios'},
-            {'name': 'ویندوز', 'emoji': '💻', 'id': 'windows'},
-            {'name': 'مک', 'emoji': '🍎', 'id': 'mac'},
-            {'name': 'لینوکس', 'emoji': '🐧', 'id': 'linux'}
-        ]
-        
-        self.client_links = {
-            'android': {
-                'V2RayNG': 'https://play.google.com/store/apps/details?id=com.v2ray.ang',
-                'Nekobox': 'https://github.com/MatsuriDayo/NekoBoxForAndroid/releases',
-                'v2rayTUN': 'https://github.com/Forkgram/v2rayTUN/releases',
-                'MahsaNG': 'https://github.com/GFW-knocker/MahsaNG/releases',
-                'Hiddify': 'https://github.com/hiddify/hiddify-next/releases',
-                'ClashMeta': 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases',
-                'SingBox': 'https://github.com/SagerNet/sing-box/releases',
-                'Shadowsocks': 'https://play.google.com/store/apps/details?id=com.github.shadowsocks',
-                'Outline': 'https://play.google.com/store/apps/details?id=org.outline.android.client',
-                'WireGuard': 'https://play.google.com/store/apps/details?id=com.wireguard.android'
-            },
-            'ios': {
-                'Shadowrocket': 'https://apps.apple.com/app/shadowrocket/id932747118',
-                'FoXray': 'https://apps.apple.com/app/foxray/id6448898396',
-                'Streisand': 'https://apps.apple.com/app/streisand/id6450534064',
-                'Hiddify': 'https://github.com/hiddify/hiddify-next/releases',
-                'SingBox': 'https://apps.apple.com/app/sing-box/id6451272673',
-                'Potatso': 'https://apps.apple.com/app/potatso-lite/id1239860606',
-                'Outline': 'https://apps.apple.com/app/outline-app/id1356178125',
-                'Trojan': 'https://apps.apple.com/app/trojan/id689781934',
-                'WireGuard': 'https://apps.apple.com/app/wireguard/id1441195209'
-            },
-            'windows': {
-                'v2rayN': 'https://github.com/2dust/v2rayN/releases',
-                'Nekoray': 'https://github.com/MatsuriDayo/nekoray/releases',
-                'Hiddify': 'https://github.com/hiddify/hiddify-next/releases',
-                'ClashVerge': 'https://github.com/zzzgydi/clash-verge/releases',
-                'ClashMeta': 'https://github.com/MetaCubeX/Clash.Meta/releases',
-                'SingBox': 'https://github.com/SagerNet/sing-box/releases',
-                'v2rayTUN': 'https://github.com/Forkgram/v2rayTUN/releases',
-                'Xray': 'https://github.com/XTLS/Xray-core/releases',
-                'Trojan-Qt5': 'https://github.com/trojan-gfw/trojan-qt/releases',
-                'Shadowsocks': 'https://github.com/shadowsocks/shadowsocks-windows/releases',
-                'WireGuard': 'https://www.wireguard.com/install'
-            },
-            'mac': {
-                'V2RayX': 'https://github.com/2dust/v2rayX/releases',
-                'FoXray': 'https://apps.apple.com/app/foxray/id6448898396',
-                'Hiddify': 'https://github.com/hiddify/hiddify-next/releases',
-                'ClashVerge': 'https://github.com/zzzgydi/clash-verge/releases',
-                'ClashMeta': 'https://github.com/MetaCubeX/Clash.Meta/releases',
-                'SingBox': 'https://github.com/SagerNet/sing-box/releases',
-                'Trojan': 'https://github.com/trojan-gfw/trojan/releases',
-                'ShadowsocksX': 'https://github.com/shadowsocks/ShadowsocksX-NG/releases',
-                'Outline': 'https://apps.apple.com/app/outline-app/id1356178125',
-                'WireGuard': 'https://apps.apple.com/app/wireguard/id1441195209'
-            },
-            'linux': {
-                'Qv2ray': 'https://github.com/Qv2ray/Qv2ray/releases',
-                'v2rayA': 'https://github.com/v2rayA/v2rayA/releases',
-                'Nekoray': 'https://github.com/MatsuriDayo/nekoray/releases',
-                'Hiddify': 'https://github.com/hiddify/hiddify-next/releases',
-                'ClashVerge': 'https://github.com/zzzgydi/clash-verge/releases',
-                'ClashMeta': 'https://github.com/MetaCubeX/Clash.Meta/releases',
-                'SingBox': 'https://github.com/SagerNet/sing-box/releases',
-                'Xray': 'https://github.com/XTLS/Xray-core/releases',
-                'Trojan': 'https://github.com/trojan-gfw/trojan/releases',
-                'Shadowsocks': 'https://github.com/shadowsocks/shadowsocks-qt5/releases',
-                'WireGuard': 'https://www.wireguard.com/install'
-            }
-        }
-        
-        self.client_info = {
-            'vmess': {
-                'android': 
-'🔹 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">V2RayNG</a>\n🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/Forkgram/v2rayTUN/releases">v2rayTUN</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/streisand/id6450534064">Streisand</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/2dust/v2rayN/releases">v2rayN</a>\n🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>\n🔹 <a href="https://github.com/Forkgram/v2rayTUN/releases">v2rayTUN</a>',
-                'mac': 
-'🔹 <a href="https://github.com/2dust/v2rayX/releases">V2RayX</a>\n🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/Qv2ray/Qv2ray/releases">Qv2ray</a>\n🔹 <a href="https://github.com/v2rayA/v2rayA/releases">v2rayA</a>\n🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'vless': {
-                'android': 
-'🔹 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">V2RayNG</a>\n🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/Forkgram/v2rayTUN/releases">v2rayTUN</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/streisand/id6450534064">Streisand</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/2dust/v2rayN/releases">v2rayN</a>\n🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/XTLS/Xray-core/releases">Xray</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://github.com/2dust/v2rayX/releases">V2RayX</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/XTLS/Xray-core/releases">Xray</a>\n🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/v2rayA/v2rayA/releases">v2rayA</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'trojan': {
-                'android': 
-'🔹 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">V2RayNG</a>\n🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/trojan-gfw/igniter/releases">Igniter</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/trojan/id689781934">Trojan</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/trojan-gfw/trojan-qt/releases">Trojan-Qt5</a>\n🔹 <a href="https://github.com/2dust/v2rayN/releases">v2rayN</a>\n🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://github.com/trojan-gfw/trojan/releases">Trojan</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/trojan-gfw/trojan/releases">Trojan</a>\n🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/Qv2ray/Qv2ray/releases">Qv2ray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'ss': {
-                'android': 
-'🔹 <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks">Shadowsocks</a>\n🔹 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">V2RayNG</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://play.google.com/store/apps/details?id=org.outline.android.client">Outline</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/potatso-lite/id1239860606">Potatso</a>\n🔹 <a href="https://apps.apple.com/app/outline-app/id1356178125">Outline</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/shadowsocks/shadowsocks-windows/releases">Shadowsocks</a>\n🔹 <a href="https://github.com/2dust/v2rayN/releases">v2rayN</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases">ShadowsocksX</a>\n🔹 <a href="https://apps.apple.com/app/outline-app/id1356178125">Outline</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">Shadowsocks</a>\n🔹 <a href="https://github.com/Qv2ray/Qv2ray/releases">Qv2ray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'hysteria2': {
-                'android': 
-'🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/Forkgram/v2rayTUN/releases">v2rayTUN</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'hysteria': {
-                'android': 
-'🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/Forkgram/v2rayTUN/releases">v2rayTUN</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'tuic': {
-                'android': 
-'🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/Forkgram/v2rayTUN/releases">v2rayTUN</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'wireguard': {
-                'android': 
-'🔹 <a href="https://play.google.com/store/apps/details?id=com.wireguard.android">WireGuard</a>\n🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/wireguard/id1441195209">WireGuard</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://www.wireguard.com/install">WireGuard</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/wireguard/id1441195209">WireGuard</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://www.wireguard.com/install">WireGuard</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            },
-            'other': {
-                'android': 
-'🔹 <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">Nekobox</a>\n🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">V2RayNG</a>\n🔹 <a href="https://github.com/GFW-knocker/MahsaNG/releases">MahsaNG</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'ios': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://apps.apple.com/app/shadowrocket/id932747118">Shadowrocket</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'windows': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'mac': 
-'🔹 <a href="https://apps.apple.com/app/foxray/id6448898396">FoXray</a>\n🔹 <a href="https://apps.apple.com/app/sing-box/id6451272673">SingBox</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>',
-                'linux': 
-'🔹 <a href="https://github.com/MatsuriDayo/nekoray/releases">Nekoray</a>\n🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">ClashVerge</a>\n🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">ClashMeta</a>\n🔹 <a href="https://github.com/SagerNet/sing-box/releases">SingBox</a>\n🔹 <a href="https://github.com/hiddify/hiddify-next/releases">Hiddify</a>'
-            }
-        }
-       
         self.protocol_names_fa = {
-            'vmess': ' (VMess)',
-            'vless': ' (VLess)',
-            'trojan': ' (Trojan)',
-            'ss': '(Shadowsocks)',
-            'hysteria2': '(Hysteria2)',
-            'hysteria': '(Hysteria)',
-            'tuic': ' (TUIC)',
-            'wireguard': ' (WireGuard)',
+            'vmess': 'VMess',
+            'vless': 'VLess',
+            'trojan': 'Trojan',
+            'ss': 'Shadowsocks',
+            'hysteria2': 'Hysteria2',
+            'hysteria': 'Hysteria',
+            'tuic': 'TUIC',
+            'wireguard': 'WireGuard',
             'other': 'سایر پروتکل‌ها'
         }
         
@@ -912,96 +729,43 @@ class ConfigCombiner:
         protocol_name = self.protocol_names_fa.get(category, category.upper())
         protocol_emoji = self.protocol_emojis.get(category, '📁')
         
-        source_persian = "کانال‌های تلگرام" if source_type == "telegram" else "مخازن گیت‌هاب"
+        if file_extension == '.yaml':
+            clients_text = "ClashMeta"
+        else:
+            clients_text = "V2rayNG, Hiddify, Nekobox"
         
-        clients_android = self.client_info.get(category, {}).get('android', 'V2RayNG, Nekobox, ClashMeta, SingBox')
-        clients_ios = self.client_info.get(category, {}).get('ios', 'Shadowrocket, FoXray, SingBox')
-        clients_windows = self.client_info.get(category, {}).get('windows', 'v2rayN, Nekoray, ClashVerge, ClashMeta, SingBox')
-        clients_mac = self.client_info.get(category, {}).get('mac', 'FoXray, ClashVerge, SingBox')
-        clients_linux = self.client_info.get(category, {}).get('linux', 'Nekoray, ClashVerge, SingBox')
+        source_persian = "تلگرام" if source_type == "telegram" else "گیت‌هاب"
         
         caption = f"""
-{protocol_emoji} <b>{protocol_name}</b> {protocol_emoji}
+🅰️🆁🅸🆂🆃🅰️ 🅲🅾️🅽🅵🅸🅶
 
-<blockquote expandable>
-📊 <b>آمار:</b>
-• تعداد کانفیگ‌ها: <code>{count}</code>
-• منبع: <code>{source_persian}</code>
-• به‌روزرسانی: <code>{timestamp}</code>
+🔰 تعداد {count} {protocol_name} استخراج شده از {source_persian}
+👈 قابل استفاده در {clients_text}
 
-📱 <b>نرم‌افزارهای سازگار:</b>
+➖➖➖➖➖➖➖➖
+<blockquote>@aristapanel</blockquote>
+➖➖➖➖➖➖➖➖
 
-🤖 <b>اندروید:</b>
-{clients_android}
-
-🍏 <b>آی‌اواس:</b>
-{clients_ios}
-
-💻 <b>ویندوز:</b>
-{clients_windows}
-
-🍎 <b>مک:</b>
-{clients_mac}
-
-🐧 <b>لینوکس:</b>
-{clients_linux}
-
-📥 <b>روش استفاده:</b>
-👈 فایل را دانلود یا کپی کنید
-👈 در نرم‌افزار مورد نظر وارد کنید
-👈 متصل شوید و لذت ببرید!
-
-==============================
-🔗 <b>https://t.me/aristapnel</b>
-==============================
-</blockquote>
-
-#arista #{category} #vpn #freeconfig #vless #vmess #ss #trojan #hysteria2 #clashmeta #singbox #پنل_آریستا #کانفیگ_رایگان
+#arista #V2ray #{category} #پنل_آریستا
 """
         return caption
     
     def create_clashmeta_caption(self, protocol, count, timestamp, source_type):
-        protocol_emoji = self.protocol_emojis.get(protocol, '🔥')
         protocol_name = self.protocol_names_fa.get(protocol, protocol.upper())
         
         source_persian = "تلگرام" if source_type == "telegram" else "گیت‌هاب"
         
         caption = f"""
-{protocol_emoji} <b>کانفیگ اختصاصی ClashMeta - {protocol_name} ({source_persian})</b> {protocol_emoji}
+🅰️🆁🅸🆂🆃🅰️ 🅲🅾️🅽🅵🅸🅶
 
-<blockquote expandable>
-📊 <b>آمار:</b>
-• تعداد پروکسی‌ها: <code>{count}</code>
-• فرمت: <code>YAML</code>
-• منبع: <code>{source_persian}</code>
-• به‌روزرسانی: <code>{timestamp}</code>
+🔰 تعداد {count} {protocol_name} استخراج شده از {source_persian}
+👈 قابل استفاده در ClashMeta
 
-📱 <b>نرم‌افزارهای سازگار:</b>
+➖➖➖➖➖➖➖➖
+<blockquote>@aristapanel</blockquote>
+➖➖➖➖➖➖➖➖
 
-🤖 <b>اندروید:</b>
-🔹 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases">ClashMeta For Android</a>
-
-💻 <b>ویندوز:</b>
-🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">Clash Verge</a>
-🔹 <a href="https://github.com/MetaCubeX/Clash.Meta/releases">Clash Meta</a>
-
-🍎 <b>مک:</b>
-🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">Clash Verge</a>
-
-🐧 <b>لینوکس:</b>
-🔹 <a href="https://github.com/zzzgydi/clash-verge/releases">Clash Verge</a>
-
-📥 <b>روش استفاده:</b>
-👈 فایل را دانلود کنید
-👈 در نرم‌افزار ClashMeta وارد کنید
-👈 متصل شوید و لذت ببرید!
-
-==============================
-🔗 <b>https://t.me/aristapnel</b>
-==============================
-</blockquote>
-
-#arista #clashmeta #{protocol} #vpn #freeconfig #{source_persian} #پنل_آریستا #کانفیگ_رایگان
+#arista #V2ray #clashmeta #{protocol} #ClashMeta #پنل_آریستا
 """
         return caption
     
@@ -1050,6 +814,8 @@ class ConfigCombiner:
                 
                 filename = f"configs/telegram/{category}.txt"
                 
+                file_extension = '.txt'
+                
                 caption = self.create_persian_caption(
                     category, 
                     len(unique_configs), 
@@ -1079,6 +845,8 @@ class ConfigCombiner:
                 unique_configs = self.deduplicate(github_configs)
                 
                 filename = f"configs/github/{category}.txt"
+                
+                file_extension = '.txt'
                 
                 caption = self.create_persian_caption(
                     category, 
