@@ -38,6 +38,17 @@ class ConfigCombiner:
             'tuic': '🔌', 'wireguard': '🔒', 'other': '📦'
         }
         
+        self.os_list = [
+            {'id': 'windows', 'name': 'ویندوز', 'emoji': '🪟'},
+            {'id': 'android', 'name': 'اندروید', 'emoji': '📱'},
+            {'id': 'ios', 'name': 'iOS', 'emoji': '📱'},
+            {'id': 'linux', 'name': 'لینوکس', 'emoji': '🐧'},
+            {'id': 'macos', 'name': 'مک', 'emoji': '🍎'},
+            {'id': 'router', 'name': 'روتر', 'emoji': '📡'}
+        ]
+        
+        self.client_links = {}
+        
         self.setup_webhook()
     
     def setup_webhook(self):
@@ -137,21 +148,9 @@ class ConfigCombiner:
         os_name = next((item['name'] for item in self.os_list if item['id'] == os_id), os_id)
         os_emoji = next((item['emoji'] for item in self.os_list if item['id'] == os_id), '📱')
         
-        text = f"{os_emoji} <b>{os_name}</b>\n\n🔹 <b>کلاینت‌های موجود:</b>\n\nبرای دریافت لینک دانلود، روی نام کلاینت کلیک کنید:\n"
+        text = f"{os_emoji} <b>{os_name}</b>\n\n🔹 <b>کلاینت‌های موجود:</b>\n\nدر حال حاضر لینکی موجود نیست.\n"
         
         keyboard = []
-        clients = self.client_links.get(os_id, {})
-        
-        row = []
-        for i, (client_name, link) in enumerate(clients.items()):
-            row.append({
-                'text': client_name,
-                'url': link
-            })
-            if (i + 1) % 2 == 0 or i == len(clients) - 1:
-                keyboard.append(row)
-                row = []
-        
         keyboard.append([{
             'text': '🔙 بازگشت به انتخاب سیستم عامل',
             'callback_data': 'back_to_os'
@@ -729,6 +728,8 @@ class ConfigCombiner:
         protocol_name = self.protocol_names_fa.get(category, category.upper())
         protocol_emoji = self.protocol_emojis.get(category, '📁')
         
+        file_extension = '.txt'
+        
         if file_extension == '.yaml':
             clients_text = "ClashMeta"
         else:
@@ -814,8 +815,6 @@ class ConfigCombiner:
                 
                 filename = f"configs/telegram/{category}.txt"
                 
-                file_extension = '.txt'
-                
                 caption = self.create_persian_caption(
                     category, 
                     len(unique_configs), 
@@ -845,8 +844,6 @@ class ConfigCombiner:
                 unique_configs = self.deduplicate(github_configs)
                 
                 filename = f"configs/github/{category}.txt"
-                
-                file_extension = '.txt'
                 
                 caption = self.create_persian_caption(
                     category, 
@@ -886,6 +883,8 @@ class ConfigCombiner:
                 self.send_to_telegram(github_file, caption)
     
     def create_combined_files(self):
+        os.makedirs('configs/combined', exist_ok=True)
+        
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         
         all_combined = []
