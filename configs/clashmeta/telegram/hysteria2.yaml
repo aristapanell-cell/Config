@@ -78,15 +78,6 @@ sniffer:
 proxies:
 - name: 'Hysteria2 #1'
   type: hysteria2
-  server: 130.61.50.75
-  port: 6443
-  password: zhangyang
-  sni: dash.cloudflare.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'Hysteria2 #2'
-  type: hysteria2
   server: 18.157.222.169
   port: 443
   password: Masir_Sefid
@@ -96,6 +87,15 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: Masir_Sefid
+- name: 'Hysteria2 #2'
+  type: hysteria2
+  server: 130.61.50.75
+  port: 6443
+  password: zhangyang
+  sni: dash.cloudflare.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
