@@ -724,7 +724,7 @@ class ConfigCombiner:
         except Exception as e:
             print(f"  ❌ خطا در ارسال به تلگرام: {e}")
     
-    def create_persian_caption(self, category, count, source, timestamp, source_type):
+        def create_persian_caption(self, category, count, source, timestamp, source_type):
         protocol_name = self.protocol_names_fa.get(category, category.upper())
         protocol_emoji = self.protocol_emojis.get(category, '📁')
         
@@ -740,8 +740,8 @@ class ConfigCombiner:
         caption = f"""
 🅰️🆁🅸🆂🆃🅰️ 🅲🅾️🅽🅵🅸🅶
 
-🔰 تعداد {count} {protocol_name} استخراج شده از {source_persian}
-👈 قابل استفاده در {clients_text}
+🔰 تعداد <b>{count}</b> عدد کانفیگ <b>{protocol_name}</b> استخراج شده از {source_persian}
+👈 قابل استفاده در کلاینت‌های <b>{clients_text}</b>
 
 ➖➖➖➖➖➖➖➖
 <blockquote>@aristapanel</blockquote>
@@ -759,8 +759,8 @@ class ConfigCombiner:
         caption = f"""
 🅰️🆁🅸🆂🆃🅰️ 🅲🅾️🅽🅵🅸🅶
 
-🔰 تعداد {count} {protocol_name} استخراج شده از {source_persian}
-👈 قابل استفاده در ClashMeta
+🔰 تعداد <b>{count}</b> عدد کانفیگ <b>{protocol_name}</b> استخراج شده از {source_persian}
+👈 قابل استفاده در کلاینت <b>ClashMeta</b>
 
 ➖➖➖➖➖➖➖➖
 <blockquote>@aristapanel</blockquote>
