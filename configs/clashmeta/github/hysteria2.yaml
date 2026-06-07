@@ -538,6 +538,15 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: killmebaby
+- name: 'T.ME: @aristapnel #48'
+  type: hysteria2
+  server: 193.53.126.108
+  port: 443
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  sni: s463.okgfwbackxyz.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -589,6 +598,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #45'
   - 'T.ME: @aristapnel #46'
   - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -639,6 +649,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #45'
   - 'T.ME: @aristapnel #46'
   - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150

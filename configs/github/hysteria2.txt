@@ -1,6 +1,6 @@
 # GitHub HYSTERIA2 Configurations
-# Updated: 2026-06-07 18:20:33
-# Count: 47
+# Updated: 2026-06-07 20:09:39
+# Count: 48
 # Source: GitHub Repositories
 
 hysteria2://18cf8030-1ceb-4b7d-8c0c-c036413c144e@185.228.139.247:4433?insecure=1&sni=de2.xiaoliyu.cyou#T.ME: @aristapnel
@@ -50,3 +50,4 @@ hysteria2://17cdeb6c-f046-11ee-bdac-f23c93141fad@6adab57e-t53wg0-tdvgqe-2gok.la.
 hysteria2://dongtaiwang.com@208.87.243.187:22222?security=tls&insecure=1&sni=www.bing.com#T.ME: @aristapnel
 hysteria2://c7166f8f-236b-4fa4-b99c-172813b24f73@fi-hel-hostvds-05.sssrvpn.pro:13337?sni=h2.mtproxy-hub.org&obfs=salamander&obfs-password=killmebaby#T.ME: @aristapnel
 hysteria2://c7166f8f-236b-4fa4-b99c-172813b24f73@fi-hel-hostvds-07.sssrvpn.pro:13337?sni=h2.mtproxy-hub.org&obfs=salamander&obfs-password=killmebaby#T.ME: @aristapnel
+hysteria2://10550754-cf62-3d3b-ba6a-50be27a275d7@193.53.126.108:443?sni=s463.okgfwbackxyz.xyz&insecure=1#T.ME: @aristapnel
