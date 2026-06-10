@@ -89,49 +89,16 @@ proxies:
   obfs-password: Masir_Sefid
 - name: 'Hysteria2 #2'
   type: hysteria2
-  server: sg2.yuntong.click
-  port: 443
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  sni: sg2.yuntong.click
+  server: 181.214.99.162
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
 - name: 'Hysteria2 #3'
-  type: hysteria2
-  server: 207.154.242.160
-  port: 443
-  password: Masir_Sefid
-  sni: Api.masir-sefid-1.my
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Masir_Sefid
-- name: 'Hysteria2 #4'
-  type: hysteria2
-  server: 206.189.58.246
-  port: 443
-  password: Masir_Sefid
-  sni: Api1.masir-sefid-1.my
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Masir_Sefid
-- name: 'Hysteria2 #5'
-  type: hysteria2
-  server: 18.157.222.169
-  port: 444
-  password: '%40Masir_Sefid'
-  sni: free.masir-sefid.shop
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Masir_Sefid
-- name: 'Hysteria2 #6'
   type: hysteria2
   server: 206.189.58.246
   port: 2053
@@ -142,6 +109,39 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: Masir_Sefid
+- name: 'Hysteria2 #4'
+  type: hysteria2
+  server: 207.154.242.160
+  port: 443
+  password: Masir_Sefid
+  sni: Api.masir-sefid-1.my
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'Hysteria2 #5'
+  type: hysteria2
+  server: 206.189.58.246
+  port: 443
+  password: Masir_Sefid
+  sni: Api1.masir-sefid-1.my
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'Hysteria2 #6'
+  type: hysteria2
+  server: sg2.yuntong.click
+  port: 443
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  sni: sg2.yuntong.click
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
 - name: 'Hysteria2 #7'
   type: hysteria2
   server: 185.228.139.247
@@ -151,6 +151,28 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+- name: 'Hysteria2 #8'
+  type: hysteria2
+  server: 18.157.222.169
+  port: 444
+  password: '%40Masir_Sefid'
+  sni: free.masir-sefid.shop
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
+- name: 'Hysteria2 #9'
+  type: hysteria2
+  server: 206.189.58.246
+  port: 4040
+  password: Masir_Sefid
+  sni: Api1.masir-sefid-1.my
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Masir_Sefid
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -163,6 +185,8 @@ proxy-groups:
   - 'Hysteria2 #5'
   - 'Hysteria2 #6'
   - 'Hysteria2 #7'
+  - 'Hysteria2 #8'
+  - 'Hysteria2 #9'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -174,6 +198,8 @@ proxy-groups:
   - 'Hysteria2 #5'
   - 'Hysteria2 #6'
   - 'Hysteria2 #7'
+  - 'Hysteria2 #8'
+  - 'Hysteria2 #9'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
