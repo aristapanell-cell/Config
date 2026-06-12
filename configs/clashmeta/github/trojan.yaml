@@ -152,7 +152,7 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #7'
   type: trojan
-  server: 188.253.12.93
+  server: 188.253.12.92
   port: 41943
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -163,14 +163,14 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #8'
   type: trojan
-  server: 188.253.12.94
-  port: 45553
+  server: 188.253.12.93
+  port: 41943
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ch.01.naiun.bilibili.com
+  servername: az.01.naiun.bilibili.com
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #9'
   type: trojan
@@ -375,17 +375,6 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #26'
   type: trojan
-  server: 91.233.8.25
-  port: 443
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: fra34.tracker-ws.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #27'
-  type: trojan
   server: masir_sefid
   port: 443
   password: Masir_Sefid
@@ -395,7 +384,7 @@ proxies:
   tcp-fast-open: true
   servername: store.steampowered.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #28'
+- name: 'T.ME: @aristapnel #27'
   type: trojan
   server: 104.27.30.190
   port: 8443
@@ -410,7 +399,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: billowing-night-3b76.iranmountains.workers.dev
-- name: 'T.ME: @aristapnel #29'
+- name: 'T.ME: @aristapnel #28'
   type: trojan
   server: 8.39.125.191
   port: 2083
@@ -425,7 +414,7 @@ proxies:
     path: /
     headers:
       Host: spring-queen-a95f.cewon19053.workers.dev
-- name: 'T.ME: @aristapnel #30'
+- name: 'T.ME: @aristapnel #29'
   type: trojan
   server: 149.104.87.182
   port: 443
@@ -436,7 +425,7 @@ proxies:
   tcp-fast-open: true
   servername: www.jewelapp.click
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #31'
+- name: 'T.ME: @aristapnel #30'
   type: trojan
   server: 127.0.0.1
   port: 1080
@@ -447,7 +436,7 @@ proxies:
   tcp-fast-open: true
   servername: 127.0.0.1
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #32'
+- name: 'T.ME: @aristapnel #31'
   type: trojan
   server: 127.0.0.1
   port: 8080
@@ -458,6 +447,23 @@ proxies:
   tcp-fast-open: true
   servername: 127.0.0.1
   client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #32'
+  type: trojan
+  server: 172.67.204.84
+  port: 2096
+  password: b12f4be0-e874-568e-954f-942dcc3a67e9
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.trojan0.woRkeRS.deV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /trojan-ws/?ed=2048
+    headers:
+      Host: trojan.trojan0.woRkeRS.deV
 - name: 'T.ME: @aristapnel #33'
   type: trojan
   server: 172.235.63.252
@@ -1801,7 +1807,7 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #126'
   type: trojan
-  server: 13.37.194.137
+  server: 15.236.71.30
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1814,7 +1820,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #127'
   type: trojan
-  server: 13.38.194.86
+  server: 15.237.134.240
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1827,7 +1833,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #128'
   type: trojan
-  server: 15.236.71.30
+  server: 18.159.245.110
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1840,7 +1846,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #129'
   type: trojan
-  server: 15.237.134.240
+  server: 18.192.188.251
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1853,7 +1859,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #130'
   type: trojan
-  server: 18.159.245.110
+  server: 18.198.224.239
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1866,7 +1872,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #131'
   type: trojan
-  server: 18.192.188.251
+  server: 51.44.149.159
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1879,7 +1885,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #132'
   type: trojan
-  server: 18.198.224.239
+  server: 52.47.178.252
   port: 22223
   password: telegram-id-directvpn
   network: tcp
@@ -1905,7 +1911,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #134'
   type: trojan
-  server: 13.37.194.137
+  server: 15.236.71.30
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -1918,7 +1924,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #135'
   type: trojan
-  server: 13.38.194.86
+  server: 15.237.134.240
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -1931,7 +1937,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #136'
   type: trojan
-  server: 15.236.71.30
+  server: 18.159.245.110
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -1944,7 +1950,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #137'
   type: trojan
-  server: 15.237.134.240
+  server: 18.192.188.251
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -1957,7 +1963,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #138'
   type: trojan
-  server: 18.159.245.110
+  server: 18.198.224.239
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -1970,7 +1976,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #139'
   type: trojan
-  server: 18.192.188.251
+  server: 51.44.149.159
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -1983,7 +1989,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #140'
   type: trojan
-  server: 18.198.224.239
+  server: 52.47.178.252
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
